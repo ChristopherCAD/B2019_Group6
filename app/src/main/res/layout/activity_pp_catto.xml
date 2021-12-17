@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pp_Catto"
+    android:gravity="center"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/wlcmimg">
+
+
+    <TextView
+        android:id="@+id/cSymptoms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/catto_Symptoms"
+        android:textColor="@android:color/holo_blue_dark"
+        android:background="@color/cardview_light_background"
+        android:textSize="20sp"
+
+        />
+
+    <CheckBox
+        android:id="@+id/CS1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginBottom="3sp"
+        android:text="Blister" />
+
+    <CheckBox
+        android:id="@+id/CS2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginBottom="3sp"
+        android:text="Swollen Lymph Nodes" />
+
+    <CheckBox
+        android:id="@+id/CS3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginBottom="3sp"
+        android:text="Fatigue" />
+
+    <CheckBox
+        android:id="@+id/CS4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginBottom="3sp"
+        android:text="Body Aches" />
+
+    <CheckBox
+        android:id="@+id/CS5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginBottom="3sp"
+        android:text="Weight Loss" />
+
+    <Button
+        android:id="@+id/catButtonSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search" />
+</LinearLayout>
