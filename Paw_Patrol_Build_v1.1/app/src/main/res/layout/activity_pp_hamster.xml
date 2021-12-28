@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pp_Hamster"
+    android:orientation="vertical"
+    android:layout_gravity="top|center"
+    android:background="@drawable/ic_hamster_wallpaper_1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/hSymptoms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:text="What is your Hamster feeling?"
+            android:textColor="@android:color/black"
+            android:background="@color/transparent"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+
+            />
+
+        <CheckBox
+            android:id="@+id/HS1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="3sp"
+            android:text="Diarrhea" />
+
+        <CheckBox
+            android:id="@+id/HS2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="3sp"
+            android:text="Lethargy" />
+
+        <CheckBox
+            android:id="@+id/HS3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="3sp"
+            android:text="Matted Fur" />
+
+        <CheckBox
+            android:id="@+id/HS4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="3sp"
+            android:text="Wet Tails" />
+
+        <CheckBox
+            android:id="@+id/HS5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="3sp"
+            android:text="Weight Loss" />
+
+        <CheckBox
+            android:id="@+id/HS6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="3sp"
+            android:text="Appetite Loss" />
+
+        <CheckBox
+            android:id="@+id/HS7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="3sp"
+            android:text="Rapid Breathing" />
+
+        <CheckBox
+            android:id="@+id/HS8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="3sp"
+            android:text="Irregular Heartbeat" />
+
+        <CheckBox
+            android:id="@+id/HS9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="3sp"
+            android:text="Discolored Gums" />
+
+        <CheckBox
+            android:id="@+id/HS10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="3sp"
+            android:text="Dehydration" />
+
+        <CheckBox
+            android:id="@+id/HS11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="3sp"
+            android:text="Watery Diarrhea" />
+
+        <CheckBox
+            android:id="@+id/HS12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="3sp"
+            android:text="Rough Hair Coat" />
+
+        <CheckBox
+            android:id="@+id/HS13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="3sp"
+            android:text="Swollen / Bloated Abdomen" />
+
+        <CheckBox
+            android:id="@+id/HS14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="3sp"
+            android:text="Runny Nose" />
+
+        <CheckBox
+            android:id="@+id/HS15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="3sp"
+            android:text="Excessive Pus / Mucus from eyes and nose" />
+
+        <Button
+            android:id="@+id/hamsterButtonSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Search"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

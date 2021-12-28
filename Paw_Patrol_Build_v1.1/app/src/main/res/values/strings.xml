@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Paw Patrol Build v1.0</string>
+    <string name="catto_Symptoms">What is your cat feeling?</string>
+
+    // Rabbit Diseases Description Strings
+
+    <string name="D1Desc"> A rabbit`s teeth will continually grow throughout its life. If a rabbit is
+    not constantly grinding their teeth down by eating fiber, we start to see their molar teeth forming sharp
+    spikes that damages their cheeks, gums, and tongue. This causes pain that makes them reluctant or unable to eat.
+    The incisors at the front of the mouth can, in severe cases, grow around in a curl; meaning rabbits cannot close
+    their mouth or eat at all. If left untreated, Overgrown teeth can cause a rabbit to greatly suffer or worse, die.</string>
+
+    <string name="ChewToys"> Chewing on a well made toy helps your rabbit keep its teeth/molars well-trimmed.
+    A chew toy can prevent a growing molars on its early stages or prevent it from growing at a dangerous length at all.</string>
+
+    <string name="nailClippers"> This method, although is not advised, can prevent molars to grow to dangerous length.
+        It involves a regular dog nail clippers to cut the teeth as you would cut toe nails. But as mentioned before,
+        it is not advised not to use this method as there is a high risk of cracking or splitting the tooth because
+        of the force needed to use the clippers.
+    </string>
+
+    <string name="RotaryTool">
+        The third method is to use a handheld rotary tool, like a Dremel or a Dental bur, to slice the excess tooth off.
+        This method requires care and skill and sometimes require an anaesthesia or sedation to keep a rabbit still.
+        This method causes no trauma to the teeth and nerve. The only concerns are possible trauma to the gums or lips
+        if the cutting tool accidentally grazes them or if a tooth is trimmed too short.
+    </string>
+</resources>
