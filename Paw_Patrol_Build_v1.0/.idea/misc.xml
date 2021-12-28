@@ -3,8 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/Paw_Patrol_Build_v1.0/app/src/main/res/layout/activity_main.xml" value="0.12031408308004053" />
-        <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/Paw_Patrol_Build_v1.0/app/src/main/res/layout/activity_pp_catto.xml" value="0.12031408308004053" />
+        <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/Paw_Patrol_Build_v1.0/app/src/main/res/drawable/body_radius.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/Paw_Patrol_Build_v1.0/app/src/main/res/drawable/collapse_color_bg.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/Paw_Patrol_Build_v1.0/app/src/main/res/drawable/ic_corner_radius.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/Paw_Patrol_Build_v1.0/app/src/main/res/layout/activity_disease1_rabbit.xml" value="0.33" />
+        <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/Paw_Patrol_Build_v1.0/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/Paw_Patrol_Build_v1.0/app/src/main/res/layout/activity_pp_bird_disease.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/Paw_Patrol_Build_v1.0/app/src/main/res/layout/activity_pp_cat_diseases.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/Paw_Patrol_Build_v1.0/app/src/main/res/layout/activity_pp_catto.xml" value="0.33" />
+        <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/Paw_Patrol_Build_v1.0/app/src/main/res/layout/activity_pp_dog_disease.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/Paw_Patrol_Build_v1.0/app/src/main/res/layout/activity_pp_doggo.xml" value="0.33" />
+        <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/Paw_Patrol_Build_v1.0/app/src/main/res/layout/activity_pp_guinea_disease.xml" value="0.21" />
+        <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/Paw_Patrol_Build_v1.0/app/src/main/res/layout/activity_pp_guinea_pig.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/Paw_Patrol_Build_v1.0/app/src/main/res/layout/activity_pp_hamster.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/Paw_Patrol_Build_v1.0/app/src/main/res/layout/activity_pp_hamster_disease.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/Paw_Patrol_Build_v1.0/app/src/main/res/layout/activity_pp_rabbit.xml" value="0.25" />
+        <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/Paw_Patrol_Build_v1.0/app/src/main/res/layout/activity_pp_rabbit_diseases.xml" value="0.33" />
+        <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/Paw_Patrol_Build_v1.0/app/src/main/res/layout/activity_pp_reptile_disease.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/Paw_Patrol_Build_v1.0/app/src/main/res/layout/activity_pp_reptiles.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/Paw_Patrol_Build_v1.0/app/src/main/res/layout/activity_pp_tweet_machine.xml" value="0.24739583333333334" />
         <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/app/src/main/res/layout/activity_pp_catto.xml" value="0.33" />
         <entry key="..\:/Users/myPC/Documents/GitHub/B2019_Group6/app/src/main/res/layout/activity_pp_doggo.xml" value="0.12031408308004053" />

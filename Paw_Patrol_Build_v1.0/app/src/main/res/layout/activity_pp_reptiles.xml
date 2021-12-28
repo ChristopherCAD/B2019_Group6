@@ -4,90 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".pp_Catto"
-    android:gravity="top|center"
+    tools:context=".pp_reptiles"
     android:orientation="vertical"
-    android:background="@drawable/wlcmimg">
-
+    android:layout_gravity="top|center"
+    android:background="@drawable/ic_lizard_wallpaper_1">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="10dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
 
-    <TextView
-        android:id="@+id/cSymptoms"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_marginBottom="10dp"
-        android:text="What is your Cat feeling?"
-        android:textColor="@color/black"
-        android:background="@color/transparent"
-        android:textSize="20sp"
-        android:textAlignment="center"
-        android:layout_gravity="center"
 
-        />
+        <TextView
+            android:id="@+id/lSymptoms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:text="What is your Reptile feeling?"
+            android:textColor="@android:color/black"
+            android:background="@color/greenish"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
 
-    <CheckBox
-        android:id="@+id/CS1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/transparent"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:fontFamily="sans-serif-light"
-        android:layout_marginBottom="3sp"
-        android:text="Blister" />
-
-    <CheckBox
-        android:id="@+id/CS2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/transparent"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:fontFamily="sans-serif-light"
-        android:layout_marginBottom="3sp"
-        android:text="Swollen Lymph Nodes" />
-
-    <CheckBox
-        android:id="@+id/CS3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/transparent"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:fontFamily="sans-serif-light"
-        android:layout_marginBottom="3sp"
-        android:text="Fatigue" />
-
-    <CheckBox
-        android:id="@+id/CS4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/transparent"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:fontFamily="sans-serif-light"
-        android:layout_marginBottom="3sp"
-        android:text="Body Aches" />
-
-    <CheckBox
-        android:id="@+id/CS5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/transparent"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:fontFamily="sans-serif-light"
-        android:layout_marginBottom="3sp"
-        android:text="Weight Loss" />
+            />
 
         <CheckBox
-            android:id="@+id/CS6"
+            android:id="@+id/LS1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
@@ -95,10 +40,10 @@
             android:textColor="@color/black"
             android:fontFamily="sans-serif-light"
             android:layout_marginBottom="3sp"
-            android:text="Drooling" />
+            android:text="Thick Pus" />
 
         <CheckBox
-            android:id="@+id/CS7"
+            android:id="@+id/LS2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
@@ -106,10 +51,10 @@
             android:textColor="@color/black"
             android:fontFamily="sans-serif-light"
             android:layout_marginBottom="3sp"
-            android:text="Lumps" />
+            android:text="Pain / Disconfort when Mouth is opened" />
 
         <CheckBox
-            android:id="@+id/CS8"
+            android:id="@+id/LS3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
@@ -117,10 +62,10 @@
             android:textColor="@color/black"
             android:fontFamily="sans-serif-light"
             android:layout_marginBottom="3sp"
-            android:text="Bad Breath" />
+            android:text="Loss of Appetite" />
 
         <CheckBox
-            android:id="@+id/CS9"
+            android:id="@+id/LS4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
@@ -128,21 +73,10 @@
             android:textColor="@color/black"
             android:fontFamily="sans-serif-light"
             android:layout_marginBottom="3sp"
-            android:text="Lethargy" />
+            android:text="Unwillingness to eat" />
 
         <CheckBox
-            android:id="@+id/CS10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/transparent"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:fontFamily="sans-serif-light"
-            android:layout_marginBottom="3sp"
-            android:text="Diarrhea" />
-
-        <CheckBox
-            android:id="@+id/CS11"
+            android:id="@+id/LS5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
@@ -153,7 +87,7 @@
             android:text="Vomiting" />
 
         <CheckBox
-            android:id="@+id/CS12"
+            android:id="@+id/LS6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
@@ -161,10 +95,10 @@
             android:textColor="@color/black"
             android:fontFamily="sans-serif-light"
             android:layout_marginBottom="3sp"
-            android:text="Skin Patches" />
+            android:text="Diarrhea" />
 
         <CheckBox
-            android:id="@+id/CS13"
+            android:id="@+id/LS7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
@@ -172,10 +106,10 @@
             android:textColor="@color/black"
             android:fontFamily="sans-serif-light"
             android:layout_marginBottom="3sp"
-            android:text="Difficulty in breathing" />
+            android:text="Weight Loss" />
 
         <CheckBox
-            android:id="@+id/CS14"
+            android:id="@+id/LS8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
@@ -183,10 +117,10 @@
             android:textColor="@color/black"
             android:fontFamily="sans-serif-light"
             android:layout_marginBottom="3sp"
-            android:text="Frequent Urinating" />
+            android:text="Depression" />
 
         <CheckBox
-            android:id="@+id/CS15"
+            android:id="@+id/LS9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
@@ -194,10 +128,10 @@
             android:textColor="@color/black"
             android:fontFamily="sans-serif-light"
             android:layout_marginBottom="3sp"
-            android:text="Bloody Urine" />
+            android:text="Dead Tissue in Mouth" />
 
         <CheckBox
-            android:id="@+id/CS16"
+            android:id="@+id/LS10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
@@ -205,10 +139,10 @@
             android:textColor="@color/black"
             android:fontFamily="sans-serif-light"
             android:layout_marginBottom="3sp"
-            android:text="Brownish Tongue" />
+            android:text="Inflamed Mouth Tissue" />
 
         <CheckBox
-            android:id="@+id/CS17"
+            android:id="@+id/LS11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
@@ -216,10 +150,10 @@
             android:textColor="@color/black"
             android:fontFamily="sans-serif-light"
             android:layout_marginBottom="3sp"
-            android:text="Fever" />
+            android:text="Limping" />
 
         <CheckBox
-            android:id="@+id/CS18"
+            android:id="@+id/LS12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
@@ -227,10 +161,10 @@
             android:textColor="@color/black"
             android:fontFamily="sans-serif-light"
             android:layout_marginBottom="3sp"
-            android:text="Matted Fur" />
+            android:text="Bowed Legs" />
 
         <CheckBox
-            android:id="@+id/CS19"
+            android:id="@+id/LS13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
@@ -238,10 +172,10 @@
             android:textColor="@color/black"
             android:fontFamily="sans-serif-light"
             android:layout_marginBottom="3sp"
-            android:text="Skin Infections" />
+            android:text="Difficulty Standing" />
 
         <CheckBox
-            android:id="@+id/CS20"
+            android:id="@+id/LS14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
@@ -249,10 +183,10 @@
             android:textColor="@color/black"
             android:fontFamily="sans-serif-light"
             android:layout_marginBottom="3sp"
-            android:text="Seizures" />
+            android:text="Mouth Rot" />
 
         <CheckBox
-            android:id="@+id/CS21"
+            android:id="@+id/LS15"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
@@ -260,37 +194,16 @@
             android:textColor="@color/black"
             android:fontFamily="sans-serif-light"
             android:layout_marginBottom="3sp"
-            android:text="Abdominal Pain" />
+            android:text="Warts forming in skin" />
 
-        <CheckBox
-            android:id="@+id/CS22"
-            android:layout_width="match_parent"
+        <Button
+            android:id="@+id/lizardButtonSearch"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/transparent"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:fontFamily="sans-serif-light"
-            android:layout_marginBottom="3sp"
-            android:text="Restlessness" />
-
-        <CheckBox
-            android:id="@+id/CS23"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/transparent"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:fontFamily="sans-serif-light"
-            android:layout_marginBottom="3sp"
-            android:text="Increased Appetite" />
-
-
-    <Button
-        android:id="@+id/catButtonSearch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Search" />
+            android:layout_gravity="center"
+            android:text="Search"
+            android:layout_marginBottom="20dp"/>
 
     </LinearLayout>
+
 </ScrollView>

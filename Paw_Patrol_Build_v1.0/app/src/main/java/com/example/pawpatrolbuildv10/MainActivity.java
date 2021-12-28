@@ -6,6 +6,8 @@ import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -16,6 +18,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     CardView cardRabbit;
     CardView cardFrog;
     CardView cardLizard;
+    CardView cardHamster;
+    CardView cardGuinea;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +32,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         cardRabbit = findViewById(R.id.cardRabbit);
         cardFrog = findViewById(R.id.cardFrog);
         cardLizard = findViewById(R.id.cardLizard);
+        cardHamster = findViewById(R.id.cardHamster);
+        cardGuinea = findViewById(R.id.cardGuinea);
 
         // Click Listener
 
@@ -37,6 +43,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         cardRabbit.setOnClickListener(this);
         cardFrog.setOnClickListener(this);
         cardLizard.setOnClickListener(this);
+        cardHamster.setOnClickListener(this);
+        cardGuinea.setOnClickListener(this);
+
 
     }
 
@@ -72,6 +81,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 showToast("Redirecting to celery devourer page...");
                 startActivity(i);
                 break;
+            case R.id.cardHamster:
+                i = new Intent(this, pp_Hamster.class);
+                showToast("Redirecting to smol bean page...");
+                startActivity(i);
+            case R.id.cardGuinea:
+                i = new Intent(this, pp_Guinea_Pig.class);
+                showToast("Redirecting to Guinea 'page' :D...");
+                startActivity(i);
             default:
                 break;
 
