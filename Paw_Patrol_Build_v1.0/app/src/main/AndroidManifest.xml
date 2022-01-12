@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.pawpatrolbuildv10" >
+    package="com.example.pawpatrolbuildv10">
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,103 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PawPatrolBuildV10" >
+        android:theme="@style/Theme.PawPatrolBuildV10">
+        <activity
+            android:name=".frog_mycobacteriosis"
+            android:exported="false" />
+        <activity
+            android:name=".frog_obesity"
+            android:exported="false" />
+        <activity
+            android:name=".frog_redLegSyndrome"
+            android:exported="false" />
+        <activity
+            android:name=".frog_chytridiomycosis"
+            android:exported="false" />
+        <activity
+            android:name=".pp_Frog"
+            android:exported="false" />
+        <activity
+            android:name=".rabbit_myxomatosis"
+            android:exported="false" />
+        <activity
+            android:name=".rabbit_hairballs"
+            android:exported="false" />
+        <activity
+            android:name=".rabbit_hemmorhagic_disease"
+            android:exported="false" />
+        <activity
+            android:name=".rabbit_utermine_tumors"
+            android:exported="false" />
+        <activity
+            android:name=".rabbit_snuffles"
+            android:exported="false" />
+        <activity
+            android:name=".cat_cancer_try"
+            android:exported="false" />
+        <activity
+            android:name=".bird_westnile_virus"
+            android:exported="false" />
+        <activity
+            android:name=".bird_pox_virus"
+            android:exported="false" />
+        <activity
+            android:name=".bird_pacheco_disease"
+            android:exported="false" />
+        <activity
+            android:name=".bird_feather_disease"
+            android:exported="false" />
+        <activity
+            android:name=".bird_mites"
+            android:exported="false" />
+        <activity
+            android:name=".bird_salmonella"
+            android:exported="false" />
+        <activity
+            android:name=".dog_fungal_infections"
+            android:exported="false" />
+        <activity
+            android:name=".dog_heartworms"
+            android:exported="false" />
+        <activity
+            android:name=".dog_leptospirosis"
+            android:exported="false" />
+        <activity
+            android:name=".dog_intestinal_parasites"
+            android:exported="false" />
+        <activity
+            android:name=".dog_heatstroke"
+            android:exported="false" />
+        <activity
+            android:name=".dog_canine_parvo"
+            android:exported="false" />
+        <activity
+            android:name=".dog_canine_distemper"
+            android:exported="false" />
+        <activity
+            android:name=".cat_scratch_disease"
+            android:exported="false" />
+        <activity
+            android:name=".cat_hyperthyroidism"
+            android:exported="false" />
+        <activity
+            android:name=".cat_pankreatitis"
+            android:exported="false" />
+        <activity
+            android:name=".cat_leukemia_virus"
+            android:exported="false" />
+        <activity
+            android:name=".cat_FIV"
+            android:exported="false" />
+        <activity
+            android:name=".cat_kidney_disease1"
+            android:exported="false" />
+        <activity
+            android:name=".cat_kidney_disease"
+            android:exported="false" />
+        <activity
+            android:name=".cat_cancer"
+            android:exported="false" />
         <activity
             android:name=".pp_guinea_disease"
             android:exported="false" />
@@ -59,7 +155,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

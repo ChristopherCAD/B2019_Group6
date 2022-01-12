@@ -2,13 +2,531 @@
     <string name="app_name">Paw Patrol Build v1.0</string>
     <string name="catto_Symptoms">What is your cat feeling?</string>
 
+    // Cat Diseases Descriptions
+
+    <string name="cat_cancer"> Cancer in cats is the leading cause of death among cats. It is caused by uncontrolled cell
+     growth, and affects a wide range of cell types and organs in the body. Feline cancer initially manifests as a lump
+    or bump on any parts of the body.</string>
+
+    <string name="biopsy">
+        A Biopsy is a surgical procedure in which a piece of tumor is removed for study and analysis by a pathologist.
+        The pathologist`s report will provide important information such as the type of cancer and its characteristics.
+    </string>
+
+    <string name="laboratory">
+        Combinations of survey, radiography, abdominal ultrasonography, serial clinical pathology tests, including urinalysis
+        and urine cultures, and blood pressures should be performed to evaluate the severity of the disease.
+    </string>
+
+    <string name="cancerPrevention">
+        One common type of cancer in cats is Skin Cancer. Limiting your cat`s exposure to blazing heat can prevent it
+        from catching skin cancer.
+    </string>
+
+    <string name="cancerPrevention2">
+        Breast cancer is also a common cancer for cats, but having your cat spayed can prevent it from getting this
+        type of cancer.
+    </string>
+
+    <string name="kidneyDisease">
+        Kidney disease is a disease that if left untreated, can cause death in cats. Kidney disease is where your cat`s
+        kidney are not properly working. This means that their kidney cannot filter blood as it is supposed to, a number
+        of problem will arise if this disease is ignored.
+    </string>
+
+    <string name="kidneyMed1">
+        There are a number of kidney disease medications to give to your cat, but having a veterinarian check up on your
+        cat first is the first thing to do if you think your cat is sick.
+    </string>
+
+    <string name="kidneyMed2">
+        If you suspect that your cat have Kidney Disease, take it to your vet and run a number of test such as Urine Tests,
+        Ultrasound, and biopsy (if your vet says it is necessary).
+    </string>
+
+    <string name="kidneyPrevention">
+        A kidney diet is low in both phosphorus and protein, and is enriched with vitamin D and Omega-3 fatty acids.
+        Remember that it is important ti introduce your cat to new foods gradually. Your vet can advise how to make this
+        transition an easy one.
+    </string>
+
+    <string name="kidneyPrevention2">
+        Giving your cat access to clean water can save it the trouble from getting kidney disease. And with water, your
+        cat can urinate regularly, but not excessively.
+    </string>
+
+    <string name="FIV">
+        Feline Immunodefficiency Virus is one of the most common and consequential diseases of cats around the world.
+        In infected cats, FIV attacks the immune system, leaving the cat vulnerable to many other infections.
+        <br>
+            <br>
+            Although Cats infected with FIC may appear normal for years, they eventually suffer from immune defficiency,
+            which allows normally harmless bacteria, viruses, and fungi found in everyday environment to potentially cause
+            severe illnesses.
+            </br>
+        </br>
+    </string>
+
+    <string name="FIVtreatment">
+        Vaccination will always be a priority; before your cats even get FIV, it should be vaccinated. Although the vaccine
+        will not protect all cats, your cat is better safe than sorry. Don`t take chances.
+    </string>
+
+    <string name="FIVtreatment2">
+        The most effective treatment for this illness is a regular visit to your vet. Having you vet check up on your cat`s
+        condition will help your cat recover, even bit-by-bit.
+    </string>
+
+    <string name="FIVtreatment3">
+        Treating secondary infections with the help of your vet will prevent your cat`s condition to worsen. Secondary
+        infections such as wounds and intestinal parasites should be controlled as to help your cat.
+    </string>
+
+    <string name="FIVtreatment4">
+        A balanced diet will further improve your cat`s condition and health, it will invigorate your cat and make it happy.
+    </string>
+
+    <string name="FIVtreatment5">
+        Because of FIV, your cat`s immune system will weaken; making your cat vulnerable to bacteria and diseases.
+        Tumors might develop in your cat`s body. This can be prevented by doing regular check ups to the vet.
+    </string>
+
+    <string name="FIVPrevention">
+        The primary mode of transmission for FIV is through bite wounds from infected cats. Sexual contact also carries
+        a risk from infecting or getting infected from FIV. That`s why keeping your cat indoors or away from cats that
+        you might think is infected is a good course of action.
+    </string>
+
+    <string name="FIVPrevention2">
+        Cats tend to be aggressive when they are in heat. As such, they are prone to biting and scratching other cats.
+        Either spay your cats to prevent this kind of aggression, or separate your cat in heat to prevent fighting among them.
+    </string>
+
+    <string name="FELV">
+        Feline Leukemia Virus is one of the most common infectious diseases in cats, affecting between 2-3% of cats in the
+        United States alone. Infection rates are significantly higher (up to 30%) in cats that are ill or otherwise at high risk.
+    </string>
+
+    <string name="felvTreatment">
+        As always, you should always consult your cat`s condition to your vet. As they will tell you the necessary treatment
+        for a cat suffering from FELV.
+    </string>
+
+    <string name="felvPrevent">
+        The only sure way to protect cats from FeLV is to prevent their exposure to FeLV-infected cats. Keeping cats indoors,
+        away from potentially infected cats is recommended. If outdoor access is allowed, provide supervision or place cats
+        in a secure enclosure to prevent wandering and fighting.
+    </string>
+
+    <string name="Pancreatitis">
+        Pancreatitis occasionally occurs in the cat. When it does, it is often accompanied by inflammation of the liver
+        and intestine. This multi-organ inflammatory process is sometimes referred to as “triaditis”. This occurs because
+        the inflammation associated with acute pancreatitis allows digestive enzymes to spill into the abdominal cavity.
+    </string>
+
+    <string name="pancreatitisTreatment">
+        cats are good at hiding pain, so we need to always assume that pain is present and treat it appropriately
+        (pain causes disease and prevents healing).
+    </string>
+
+    <string name="IVFluids">
+        Intravenous fluids will be given to maintain normal fluid and electrolyte balance, and analgesics will be given
+        to control the intense pain. Many cases will also require anti-inflammatory drugs, or other medication to control
+        vomiting or diarrhea.
+    </string>
+
+    <string name="NSAIDs">
+        non-steroidal anti-inflammatories (NSAIDs) to reduce inflammation and reduce pain (these are avoided if your
+        cat is dehydrated or has kidney issues).
+    </string>
+
+    <string name="VitB">
+        If the pancreas is unhealthy it doesn`t make a thing called "intrinsic factor" that is needed for vitamin 
+        B12 absorption from the diet (deficiency can cause anaemia).
+    </string>
+
+    <string name="panPrevent">
+        Avoid feeding your cat high-fat meals or table scraps and keep them at a healthy weight.
+    </string>
+
+    <string name="panPrevent2">
+        Bring your cat in for regular wellness visits to check if your cat is developing health-related stuff that you
+        don`t want to worsen.
+    </string>
+
+    <string name="hyperthyroidism">
+        Hyperthyroidism results when the thyroid gland over-produces thyroid hormones. It’s the most common endocrine
+        disease of cats older than 8-years-old. (An endocrine disease is a disease of the organs that make and secrete
+        hormones.)
+    </string>
+
+    <string name="hypeTreatment1">
+        When available, radioactive iodine therapy is the treatment of choice for cats with hyperthyroidism. During treatment,
+        radioactive iodine is administered as an injection and is quickly absorbed into the bloodstream. The iodine, which
+        is required for the production of both T3 and T4, is taken up by the thyroid gland and the emitted radiation destroys
+        the abnormal thyroid tissue without damaging the surrounding tissues or the parathyroid glands.
+    </string>
+
+    <string name="hypeTreatment2">
+        Removal of the thyroid glands, called surgical thyroidectomy, is a relatively straightforward surgical procedure
+        that has a good success rate. The advantage of surgery is that it is likely to produce a long-term or permanent cure
+        in most cats, and therefore eliminates the need for long-term medication.
+    </string>
+
+    <string name="hypeTreatment3">
+        Anti-thyroid drugs act by reducing the production and release of thyroid hormone from the thyroid gland. These
+        medications do not provide a cure for the disease, but they do allow either short-term or long-term control
+        of hyperthyroidism.
+    </string>
+
+    <string name="hypePrevent">
+        There are currently no known preventive measures for hyperthyroidism, but early diagnosis decreases the secondary
+        problems and improves the prognosis.
+    </string>
+
+    // Dog Diseases
+
+    <string name="canine_distemper_string">
+        Canine Distemper is a disease which is usually caused by a very contagious virus. Puppies and dogs usually become
+        infected through virus particles in the air or in the respiratory secretions of infected dogs.
+    </string>
+
+    <string name="canineDistemper_Treatment">
+        Sadly, there is no cure for canine distemper. The only way you can treat them is to bring your dog and get it
+        diagnosed in a veterinary clinic; where veterinarians will do their utmost to prevent the worsening of the disease.
+    </string>
+
+    <string name="vetSolution">
+        Veterinarians will treat your dog with care. They will try to prevent the worsening of the condition by treating the
+        diarrhea, vomiting, and neurological symptoms that your dog may show. They will also try to prevent a secondary infection.
+    </string>
+
+    <string name="distemperPrevention">
+        Although there are no cure for canine distemper, there is a vaccine for one.
+        Make sure your dog is vaccinated regularly.
+    </string>
+
+    <string name="distemperPrevention2">
+        Keep your dog away from infected animals.
+    </string>
+
+    <string name="canine_parvo_string">
+        This virus is a very dangerous and deadly disease for dogs. It is very contagious and attacks the gastrointestinal
+        system, causing fever, vomiting, and severe, often bloody, diarrhea. It is spread by direct contact between dogs as
+        well as by contaminated stool, surfaces, food bowls, collars, leashes, equipment, and the hands and clothing of people.
+        Treating parvo can be very expensive and many dogs die from parvo despite intensive treatment.
+    </string>
+
+    <string name="parvoFirstAid">
+        A dog infected with parvo will have diarrhea and will often take a poop or vomit from time-to-time. Keeping your dog
+        hydrated will prevent it from further weakening.
+    </string>
+
+    <string name="parvoSecondAid">
+        Cleaning after your dog is a must. Every time your dog takes a poop or vomit, sanitize the area where it did its business.
+        This will also prevent your other dogs from contracting the disease.
+    </string>
+
+    <string name="parvoVet">
+        Hospitalization is needed so medications and fluids can be given through injections. Pets with parvovirus have a very
+        difficult time keeping oral medications. Because of this, home treatment is very difficult to achieve.
+    </string>
+
+    <string name="parvoPrevention">
+        By keeping you place clean, you can prevent any might-be-lingering parvo bacteria in your home.
+    </string>
+
+    <string name="parvoPrevention2">
+        When walking your dog, prevent them from sniffing or getting near a stool in the sidewalk. You don`t know
+        whether the animal which excreted the stool is infected with the parvo or not.
+    </string>
+
+    <string name="parvoPrevention3">
+        Regularly vaccinate your dog with parvovirus vaccination. This will prevent parvovirus from ever harming your dog.
+    </string>
+
+    <string name="heatstroke">
+        Heatstroke is a big risk during hot and warm weather. Remember that your dog is always wearing a fur coat and they
+        are usually warmer than you are. A temperature that seems only a little warm to a person can be too hot for a dog.
+        Add to that the fact that dogs are almost always playing and running around.
+    </string>
+
+    <string name="heatFirstAid">
+        If you noticed your dog getting weaker or slower, and is having an excessive panting, give your dog a water to hydrate
+        and prevent them from further heating up.
+    </string>
+
+    <string name="heatSecondAid">
+        You can wipe your dog`s body with a wet and wrung out towel. Doing this will help them lower the heat they are feeling
+        and refresh them, even if only for a little bit.
+    </string>
+
+    <string name="heatThirdAid">
+        When your dog is experiencing intense heat or is already having a heatstroke, take them to the nearest shade you can find.
+        Take shelter and wipe your dog with wet towels or give your dog a water to drink.
+    </string>
+
+    <string name="heatStrokeVet">
+        By bringing your dog to a vet, veterinarians can treat your dog by giving him IV fluids, oxygen, treatment for shock,
+        and drugs to control the vomiting and other symptoms.
+    </string>
+
+    <string name="heatPrevention">
+        If you feel that your house is unusually hot, cool it off by opening doors and windows. You can also turn on your fan
+        or use your aircon to cool the place. This will help your dog to feel cool and refreshed too, avoiding heatstroke.
+    </string>
+
+    <string name="heatPrevention2">
+        Playful dogs that likes to play outside should always have access to shades and water to cool off. It will help them
+        refresh a bit and prevent a heatstroke.
+    </string>
+
+    <string name="intestinalParasites">
+        Intestinal Parasites such as roundworms, hookworms, whipworms, and tapeworms lay eggs that are passed in the dog`s
+        stool and infect other dogs when they eat contaminated soil, contaminated water, contaminated food, and when they
+        lick contaminated fur or paws.
+    </string>
+
+    <string name="parasiteMeds">
+        If you suspect that your dog is infested with intestinal parasites, get your dog check up to a vet clinic and buy
+        oral medications.
+    </string>
+
+    <string name="paraPrevention">
+        By keeping you place clean, you can prevent any might-be-lingering parasite in your home.
+    </string>
+
+    <string name="paraPrevention2">
+        When walking your dog, prevent them from sniffing or getting near a stool in the sidewalk. You don`t know
+        whether the animal which excreted the stool is contaminated with worms or not.
+    </string>
+
+    <string name="leptospirosis">
+        A dog can get infected with leptospirosis by coming into contact with bacteria infected liquids and fluids.
+        Leptospirosis is caused by the bacteria species Leptospira.
+    </string>
+
+    <string name="leptosPrevention">
+        Vaccine for leptospirosis have been around since 1970s. By vaccinating your dog, you can prevent them
+        from getting leptospirosis.
+    </string>
+
+    <string name="leptosPrevention2">
+        As previously mentioned, your dog can get leptospirosis from coming into contact with liquids contaminated with
+        leptospira bacteria. So, by preventing them from coming into contact with suspicious liquids, you can also
+        prevent them from getting infected.
+    </string>
+
+    <string name="antibiotics">
+        Treatment for leptospirosis is antibiotic therapy, such as the medicines mentioned above. Upon administration,
+        antibiotics immediately inhbits multiplication and replication of the organism, thereby rapidly decreasing the
+        chances of fatal complications.
+    </string>
+
+    <string name="heartworms">
+        Heartworms are spread by mosquitoes and can cause coughing, lethargy, difficulty in breathing, and death.
+        Fortunately, there are many approved products to prevent heartworms infection. Consult your veterinarian
+        about the best product for your dog.
+    </string>
+
+    <string name="melarsomine">
+        Melarsomine is an injectable drug that is commonly used for treating heartworms. It will kill the adult heartworms
+        in the heart and adjacent vessels. This drug is administered in a series of injections. Your veterinarian will
+        determine the specific injection schedule according to your dog`s condition.
+    </string>
+
+    <string name="heartwormPrevention">
+        Heartworm preventives work by treating heartworms that already infected the pet within the past month or longer; meanwhile,
+        preventives need to be given on time, every time to be effective.
+    </string>
+
+    <string name="fungal">
+        Fungal Organisms in the soil can infect dogs when they eat or sniff contaminated soil. Dogs can also be infected
+        through the skin, especially through an open wound.
+    </string>
+
+    <string name="fungalFirstAid">
+        There are scientific data to support that vinegar may be beneficial in treating fungal infection.
+        Wash the infected are using a vinegar. It will help by changing the pH of the skin to make it less favorable
+        for fungal infection.
+    </string>
+
+    <string name="imitazole">
+        Imitazole is a class of antifungal drugs that is commonly used to treat fungal diseases including Ketaconazole,
+        itraconazole, and Fluconazole. Antifungals are commonly administered directly into the nose.
+    </string>
+
+    <string name="fungalPrevent">
+        Washing your dogs from time-to-time or washing them regularly will lower the chances of your dog getting infected
+        by fungal infections.
+    </string>
+
+    // Bird Diseases
+
+    <string name="salmonella">
+        Salmonella is an infection that can cause ruffled feathers, enlarged eyes, and lethargy in birds. It is mostly
+        disseminated by feces contamination of food and water, but it may also be carried by birds interacting at a busy feeder.
+
+    </string>
+
+    <string name="salmAntibiotic">
+        To prevent further growth of salmonella, you can use an antibiotic provided by a veterinary for your bird.
+    </string>
+
+    <string name="salmonAntibiotic">
+        It is required to use the antibiotics prescribes to you by your vet. Or use Antimicrobial Resistant Salmonella
+        bacteria.
+    </string>
+
+    <string name="salmonPrevent1">
+        To prevent the buildup of Salmonella bacteria and residue, regularly clean your birdbaths. This will prevent
+        the chances of a Salmonella surviving in an environment.
+    </string>
+
+    <string name="salmonPrevent2">
+        Preventing other birds from having a direct interaction with your bird will prevent an unprecedented infection.
+    </string>
+
+    <string name="birdMites">
+        Some mites and lice feed on the feathers and skin of birds, while other feed on blood. Large numbers of blood-sucking
+        mites can cause anemia and mortality in young birds, and a densely infested nest migth force parents to leave their
+        eggs or young.
+    </string>
+
+    <string name="mitesAid1">
+        You can manually remove bird mites from your bird by firmly (but gently) holding your bird, and using a tweezer to
+        pluck any visible mites.
+    </string>
+
+    <string name="miteMeds">
+        Control Aviary Bug Spray is an excellent solution to keep insects away from bird nests and your home.
+    </string>
+
+    <string name="mitesTreatment">
+        Permethrin is a powder extracted from a daisy flower.  It is a powder that is mixed in water and sprayed
+        throughout the aviary or as a bird bath to help control the life cycle of the mites.
+    </string>
+
+    <string name="featherDisease">
+        A bacteria that belongs to taxonomic genus Circovirus. It attacks the feather follicles and the beak and claw
+        matrices of the bird, causing progressive feather, claw and break malformation and necrosis.
+    </string>
+
+    <string name="featherFirstAid1">
+        By providing your bird a place to clean itself, it can clean any bacteria that might cause feather disease. A clean
+        bird have low chance of getting infected with feather disease.
+    </string>
+
+    <string name="featherFirstAid2">
+        If by chance your bird refuses to take a bath on a dish of water, you can manually and gently clean your bird
+        by using a soft brush (Toothbrush with soft bristles) and gently brush the body of your bird. Use a shampoo or
+        soap that is prescribed by your vet.
+    </string>
+
+    <string name="featherDiseaseTreat">
+        Unfortunately, there is no cure for Feather Disease. But by putting your bird in an intensive care and support,
+        you can prolong its life for at least 1-2 years. Although it is not advised.
+    </string>
+
+    <string name="featherDiseaseTreat2">
+        This option is only advisable if the condition is dire. This is also advised as to not prolong your bird`s pain
+        and suffering. This will also prevent the disease from spreading to other birds.
+    </string>
+
+    <string name="featherPrevent">
+        Strict hygiene should be followed in bird colonies. Especially controlling the dust. Also, regularly screen for PFBD.
+        Consequently, if any bird is found infected, quarantine the bird and burn its nest box to prevent the disease from spreading.
+    </string>
+
+    <string name="pachechoDisease">
+        Pachecho Disease is a highly infected and deadly bird illness. It is caused by the rapidly spreading Herpesvirus and
+        especially affect birds in the Parrot Family. Once infected, the animal may or may not develop symptoms, but usually
+        dies within a few days of contracting the disease.
+    </string>
+
+    <string name="Acyclovir">
+        A medicine called Acyclovir is effective, specially during an outbreak of the disease. Give this to your bird 3 times
+        a day, in 80mg every feed.
+    </string>
+
+    <string name="pachechoMed">
+        A veterinarian will generally prescribe Acyclovir for Pachecho`s disease. However, the medication is known to cause
+        kidney damage and works best during the initial stages of the infection, before the symptoms show.
+    </string>
+
+    <string name="pachecoPrevent1">
+        Pachecho Disease is a highly contagious disease. If one of your bird is infected, it is better off quarantined to
+        prevent it from infecting other birds.
+    </string>
+
+    <string name="pachecoPrevent2">
+        Alternatively, you can quarantine your birds inside to prevent it from catching the disease from infected wild birds
+        outside.
+    </string>
+
+    <string name="Poxvirus">
+        PoxVirus infections belongs to a large DNA viruses that induce intracytoplasmic, lipoliphic bodies (Bollinger Bodies)
+        in the epithelial cells of the integument, respiratory tract, and oral cavity.
+    </string>
+
+    <string name="poxMed1">
+        Vitamin A plays an important role in avian health and is crucial for a healthy immune system. Hypovitaminosis
+        A causes squamous metaplasia of epithelium within the oropharynx, choana, sinuses, GI tract, urogenital tact,
+        reproductive tract, and uropygial gland as well as hyperkeratosis of the feet.
+    </string>
+
+    <string name="poxMed2">
+        Antibiotics are medicines that fight infections caused by bacteria in animals by either killing the
+        bacteria or making it difficult for the bacteria to grow and multiply. Bacteria are germs.
+    </string>
+
+    <string name="poxPrevent1">
+        Mosquito control and indoor housing are vital to prevent outbreak.
+    </string>
+
+    <string name="poxPrevent2">
+        Their are vaccines that can prevent PoxViruses such as Canarypox, Fowlpox, and Pigeonpox.
+    </string>
+
+    <string name="westnileVirus">
+        The West Nile virus is an arthropod-borne virus in the genus Flavivirus.
+        West Nile virus is transmitted to birds through the bite of an infected mosquito. Mosquitoes become infected
+        by biting infected birds. Some birds that are predators (such as hawks and owls) or scavengers (such as crows)
+        may become infected after eating sick or dead birds that were already infected with West Nile virus.
+    </string>
+
+    <string name="westNileMed">
+        If you live in a country where you know West Nile Virus is spreading, you should vaccinate your bird first thing.
+        By vaccinating your bird, you can prevent it from contracting this virus, making it safe.
+    </string>
+
+    <string name="westNileMed2">
+        After diagnosing your bird, your vet might suggest some actions that will help your bird`s health to improve. Such
+        as IV fluids, antibiotics, and antimicrobials or antifungal.
+    </string>
+
+    <string name="westNilePrevent1">
+        Rid your house of mosquito to prevent an unprecedented infection. Regularly perform general cleaning to remove
+        any lingering mosquito eggs or mosquitos.
+    </string>
+
+    <string name="westNilePrevent2">
+        During the mosquito season, birds should be houes indoors or completely covered outdoor facilities. Mosquito netting and
+        mosquito traps should be used, and any standing or stagnat water sources should be eliminated.
+    </string>
+
     // Rabbit Diseases Description Strings
 
     <string name="D1Desc"> A rabbit`s teeth will continually grow throughout its life. If a rabbit is
     not constantly grinding their teeth down by eating fiber, we start to see their molar teeth forming sharp
     spikes that damages their cheeks, gums, and tongue. This causes pain that makes them reluctant or unable to eat.
-    The incisors at the front of the mouth can, in severe cases, grow around in a curl; meaning rabbits cannot close
-    their mouth or eat at all. If left untreated, Overgrown teeth can cause a rabbit to greatly suffer or worse, die.</string>
+    <br>
+        <br>
+        The incisors at the front of the mouth can, in severe cases, grow around in a curl; meaning rabbits cannot close
+        their mouth or eat at all. If left untreated, Overgrown teeth can cause a rabbit to greatly suffer or worse, die.
+        </br>
+    </br>
+    </string>
 
     <string name="ChewToys"> Chewing on a well made toy helps your rabbit keep its teeth/molars well-trimmed.
     A chew toy can prevent a growing molars on its early stages or prevent it from growing at a dangerous length at all.</string>
@@ -25,4 +543,380 @@
         This method causes no trauma to the teeth and nerve. The only concerns are possible trauma to the gums or lips
         if the cutting tool accidentally grazes them or if a tooth is trimmed too short.
     </string>
+
+    <string name="intraOral">
+        To start, a complete endroscopic oral exam is carried out. Inspection of the oral activity is performed to locate
+        the drainage point of the abscess. The space between teeth (periodontal pockets) are probed for signs of the
+        periodontitis.
+        <br>
+        <br>
+            Pus surrounding a tooth or increased laxity (looseness of a tooth) would indicate that would indicate that
+            the extraction of the tooth is necessary. Molar spurs (sharp points) are removed with a high speed hand drill.
+            Teeth that are crooked or too tall are also reduced in height in the process called down reduction.
+        </br>
+        </br>
+    </string>
+
+    <string name="extraOral">
+        After the completion of the intra-oral dental work, the abscess is then addresses. Often times, the abscess is
+        most easily accessible from the outside, through the skin. Using a scalpel, that abscess is lanced and
+        thoroughly drained. Any non-living unhealthy tissue associated with the abscess is excised.
+    </string>
+
+    <string name="OGTprevent">
+        80-90% of your rabbit`s diet need to be fiber in the form of oaten or grass hay. The rest of the diet should be
+        leafy greens, with pellets and other treats being minimal to non-existent.
+    </string>
+
+    <string name="Snuffles">
+        Close contact with an infected rabbit can easily transfer the Pasteurella multocida bacterium to your rabbit.
+        The bacteria can affect the eyes (discharge, redness, squinting) and/or nose (sneezing, discharge), thus giving
+        the disease its name `snuffles`.
+        <br>
+        <br>
+        Pasteurella can infect other areas of the body as well, including ears
+        (resulting in a head tilt),abscesses (seen as lumps on the body) and uterine infections.
+        </br>
+        </br>
+
+    </string>
+
+    <string name="snufflesFirstAid">
+        To prevent clogged nose or snotty eyes, use a soft cloth or a tissue damped with warm water. Do this regularly
+        and get your rabbit to the vet when it gets worse.
+    </string>
+
+    <string name="snufflesMed1">
+        Antibiotics is always the go to solution to treat bacterial infections. But before you gibe your rabbit
+        antibiotics, make sure to consult your vet first about the perfect antibiotics to use for your rabbit`s
+        condition.
+    </string>
+
+    <string name="snufflesMed2">
+        Nebuliser can also help to soothe your rabbit`s airways and ease its breathing.
+    </string>
+
+    <string name="snufflesMed3">
+        Vets suggest to use Anti-Inflammatory Pain Relief (NSAIDs) to treat pain, inflammation, and high fevers.
+    </string>
+
+    <string name="snufflesPrevent1">
+        As always, keeping your pet away from infected animals / pets is the best way to prevent them from getting infected.
+        Quarantine your infected rabbit or take it to a vet clinic to get treated.
+    </string>
+
+    <string name="snufflesPrevent2">
+        Any cage or bedding that has come into contact with infected rabbits should be properly sanitized or replaced.
+        After sanitizing and disinfecting cages and bedding, thoroughly clean yourself too to prevent spreading the
+        bacteria.
+    </string>
+
+    <string name="utermineTumours">
+        Uterine adenocarcinoma, a gland-like, malignant type of tumor that arises from the secretory tissue that lines
+        the inner cavity of the uterus, is one of the most common forms of cancer in rabbits, occurring in up to 60 percent
+        of female rabbits over three years old.
+        <br>
+        <br> These malignant uterine tumors usually arise from the endometrial lining
+        of the uterus, or from the inside layers of the uterus.
+        </br>
+        </br>
+
+        <br>
+        <br>
+            These malignant uterine tumors usually arise from the endometrial lining
+            of the uterus, or from the inside layers of the uterus.
+        </br>
+        </br>
+    </string>
+
+    <string name="tumourMed1">
+        Adenocarcinoma may involve a complete hysterectomy to remove the diseased parts of your rabbit’s organs.
+        This is usually the primary treatment, especially if the cancer has not spread beyond the reproductive organs.
+    </string>
+
+    <string name="tumourMed2">
+        Is a common surgery performed on female rabbits, the medical term is an ovariohysterectomy (removal
+        of ovaries and uterus), abbreviated as an OVH.
+    </string>
+
+    <string name="tumourMed3">
+        Is a common surgery performed on female rabbits, the medical term is an ovariohysterectomy (removal
+        of ovaries and uterus), abbreviated as an OVH.
+        <br>
+            <br>
+                Since uterine cancer is seen only in intact females, prevention by means of spaying is highly
+                recommended. If rabbits are being bred, it is recommended to halt breeding and spay before they
+                reach 4 years. This method of prevention will also reduce the risk of mammary cancer.
+            </br>
+        </br>
+    </string>
+
+    <string name="uterinePrevent">
+        Rabbits are masters of reproducing. A single pair of rabbits could theoretically produce 185,000,000,000
+        descendants in just 7 years. And as such, issues are bound to arise.
+        <br>
+        <br>
+        Uterine tumours are issue within their
+        wombs and reproductive tracts; therefore, spaying your rabbits at an early age is a sure way to prevent them
+            from growing uterine tumours.
+        </br>
+        </br>
+    </string>
+
+    <string name="Myxomatosis">
+        Myxomatosis is a virus that is transmitted by mosquitoes, fleas or by close contact between an infected rabbit
+        and a susceptible rabbit.  The disease is recognised by swelling and discharge from the eyes, nose and anogenital
+        region.
+    </string>
+
+    <string name="myxoMed1">
+        Myxomatosis is a virus that belongs to the PoxVirus. The best way to prevent your rabbit from getting this virus
+        is to vaccinate it regularly.
+    </string>
+
+    <string name="myxoMed2">
+        Currently there is no exact treatment for the disease, but supportive care can be provided to ease the symptoms.
+        Rabbits with myxomatosis are given fluids, pain medication, and antibiotics, which will aid and prevent further
+        infections.
+    </string>
+
+    <string name="myxoPrevent">
+        One of the carriers of this deadly virus are Fleas. By making sure that your house is free of fleas, you can ensure
+        the safety of your rabbit.
+    </string>
+
+    <string name="myxoPrevent2">
+        Mosquitoes also carry this virus. Make sure that your house is also free from mosquitoes. Especially at dawn or
+        dusk, when mosquito levels are higher.
+    </string>
+
+    <string name="hairballs">
+        Hair can normally be found in a rabbit’s stomach as they self-groom. However, as rabbits cannot vomit, hair must be
+        able to pass through the gut. If it can’t then it will form an obstruction and serious complications.
+        <br>
+        <br>
+        Hairballs
+        are so common that they should always be considered as a problem in any rabbit that is lethargic and not eating.
+        </br>
+        </br>
+    </string>
+
+    <string name="hairballsFirstAid">
+        Brushing every day or every other day prevents the formation of hairballs in the stomach. They do not tolerate
+        excessive cold or heat.
+        <br>
+        <br>
+        The space for your cage or house should be located away from drafts and should have
+        a container for hay, a waterer, a feeder, a place to shelter and a corner. Always have a first aid kit for rabbits.
+        </br>
+        </br>
+    </string>
+
+    <string name="hairballsMed">
+        Sometimes surgery is the only treatment if the hairball causes a blockage in the gut. Medication to get the gut working
+        again can also help.
+    </string>
+
+    <string name="hairballPrevent">
+        Hairballs are more likely to become a problem if there is an issue with the gastrointestinal tract (gut stasis)
+        or they are not receiving enough fiber in their diet, so a high fiber diet is a great preventative measure.
+    </string>
+
+    <string name="hemmorhagicDisease">
+        Rabbit Haemorrhagic Disease Virus (previously known as Rabbit Calicivirus) is spread by mosquitoes, flies and/or
+        through indirect contact or direct contact with an infected rabbit.
+        <br>
+            <br>
+                In most adult rabbits the disease progresses rapidly from fever and lethargy to sudden death within 48-72 hours of infection.
+                The incubation period for the RHDV is between one to three days. Most rabbits will show no signs of external symptoms of RHDV.
+            </br>
+        </br>
+    </string>
+
+    <string name="treatmentHemmor">
+        Rabbit haemorrhagic disease has no treatment, but its symptoms can be managed. Although it is very difficult to eradicate
+        in wild rabbits, it is achieved in domestic rabbits with biosecurity measures such as:
+        <br>
+        <br>
+            • Hygiene and frequent disinfection of their space.
+        </br>
+        <br>
+            • Elimination and extermination of affected rabbits.
+        </br>
+        <br>
+            • Strict quarantine when infection is confirmed.
+        </br>
+        <br>
+            • Vaccination prevention where possible.
+        </br>
+        <br>
+            • Good ventilation of their hutch.
+        </br>
+        <br>
+            • Protective nets (if they have access to the garden).
+        </br>
+        <br>
+            • Prevent the access of rodents or wild rabbits.
+        </br>
+        <br>
+            • Epidemiological surveillance with sentinel rabbits.
+        </br>
+        <br>
+            • Disinfection, deratization and disinfection program.
+        </br>
+        </br>
+    </string>
+
+    <string name="hemmorhagicPrevent">
+        Vaccinating your rabbit will help provide protection against RHDV1. Vaccinations are administered every 6 months for adult rabbits.
+        Adult rabbits that are overdue for a vaccination or have not previously been vaccinated will need to be given
+        two vaccinations, one month apart.
+        <br>
+        <br>
+        Young rabbit kittens can be vaccinated from four weeks of age repeated monthly
+        until 12 weeks of age and then every six months.
+        </br>
+        </br>
+    </string>
+
+    // Frog Diseases Description
+
+    <string name="Chytridiomycosis">
+        Chytridiomycosis is a disease causing precipitous declines in frog and salamander populations on a global scale.
+        There are two fungi responsible for this disease: Batrachochytrium dendrobatidis (Bd) and Batrachochytrium salamandivorans (Bsal).
+    </string>
+
+    <string name="chyMed1">
+        Antifungal medications are used to treat fungal infections. How it works is that the medication kills the fungal
+        cells that are slowly spreading around your frog`s skin.
+    </string>
+
+    <string name="chyMed2">
+        Giving your frog a salt bath (50 to 100 grams of sea salt per gallon) fir fifteen to thirty minutes everyday
+        will help prevent the spreading of the fungal infection in its skin.
+    </string>
+
+    <string name="chyMed3">
+        Chytridiomycosis is vulnerable to heat and will often die at temperatures above 32 degree celsius. Increasing
+        the temperature of your frog`s housing will help kill this fungal infection and stop its spread.
+    </string>
+
+    <string name="fungalFrogPrevent">
+        Control of chytridiomycosis in amphibian colonies includes disinfection of enclosures and implementation of
+        husbandry practices that prevent cross-contamination of enclosures with water or substrate material.
+        <br>
+            <br>
+                The infectious zoospores are sensitive to desiccation, and to date, no resting stages resistant
+                to drying have been identified.
+            </br>
+        </br>
+    </string>
+
+    <string name="redLegSyndrome">
+        Red-leg syndrome is a widespread infection seen in frogs, toads, and salamanders. It is recognized by the redness
+        on the underside of the amphibian`s legs and abdomen, and is generally due to Aeromonas hydrophila, an opportunistic
+        bacterial pathogen.
+        <br>
+            <br>
+             However, viruses and fungi may also cause similar reddening. Underfed, newly acquired amphibians that are kept in
+                poor-quality water or other less-than-ideal environmental conditions are particularly susceptible
+                to red-leg syndrome.
+            </br>
+        </br>
+    </string>
+
+    <string name="redLegFirstAid">
+        Clean the injured area with sterile gauze soaked in normal saline or clean water. Do not use cotton wool or any material
+        material that will fray or leave fluff in the wound.
+        <br>
+        <br>
+        Apply an appropriate dressing such as a band aid or a non-adhesive
+        dressing held in place with a hypoallergenic tape.
+        </br>
+        </br>
+    </string>
+
+    <string name="redLegMed">
+        Treating “red-leg” syndrome will depend on the underlying cause of the disease. For example, if it is
+        due to the Aeromonas hydrophila bacterium, your veterinarian will prescribe antibiotics for the amphibian.
+        <br>
+        <br>
+        Follow the guidelines set by your veterinarian to get optimum results.
+        </br>
+        </br>
+    </string>
+
+    <string name="redLegPrevent">
+        Maintaining a clean, hygienic living environment for the amphibian will go a long way toward preventing “red-leg”
+        syndrome. As such, tanks should be cleaned regularly, so as to prevent organic matter from collecting.
+    </string>
+
+    <string name="Obesity">
+        Generally referred to as obesity, excess body weight is as much a problem in amphibians as it is in humans.
+        This nutritional disorder puts a strain on and taxes many of the body organs, even resulting in death some cases.
+    </string>
+    
+    <string name="obesityFirstAid">
+        Limiting your frog`s feeding session is the only way to control its diet. Don`t overfeed a frog as it will cause
+        it to gain excessive wait that might lead to obesity.
+    </string>
+    
+    <string name="obesityMed1">
+        Enlarge the amphibian’s living area or enclosure. Increasing the animal’s activity will improve its metabolic rate,
+        allowing it to burn excess calories.
+    </string>
+
+    <string name="obesityMed2">
+        Maintaining the amphibian at the upper end of its preferred temper¬ature range will also accelerate metabolic
+        rate and increase caloric use.
+        <br>
+            <br>
+                However, care should be taken to never exceed the maximum recom¬mended temperature for the amphibian species.
+                Lastly, reducing the amount of food given to an animal will help with many nutritional disorders, including
+                obesity.
+            </br>
+        </br>
+    </string>
+
+    <string name="obesityPrevent">
+        Although overfeeding can easily lead to an obese amphibian, monitoring the animal’s food consumption and allowing it
+        to forage and stalk its food will help rectify the situation. Also, consult with your veterinarian to establish a proper
+        nutritional plan for your amphibian.
+    </string>
+
+    <string name="Mycobacteriosis">
+        Amphibians are susceptible to infection by many bacteria, of which several are atypical Mycobacteria.
+        Mycobacteria are microscopic organisms present everywhere in nature.
+        <br>
+        <br>
+        And while amphibians are naturally
+        resistant to mycobacterial infections, a diminished or compromised immunity due to malnutrition, disease
+        or stress, among other things, can make the animal more prone to the infection.
+        </br>
+        </br>
+        <br>
+            <br>
+                Mycobacteriosis is a contagious disease that can be passed as a skin infection from animals to 
+                humans (or a zoonotic infection). Therefore, precaution must be taken while handling an 
+                infected amphibian.
+            </br>
+        </br>
+    </string>
+    
+    <string name="mycoFirstAid">
+        Treat with ENROFLOXACIN (BAYTRIL) Put 8 drops in 125ml Tepid water. Put a lid on the bowl and make
+        sure the frogs’ head stays above the water. Duration: 15 min. each day for 6 days.
+    </string>
+
+    <string name="mycoMed">
+        Unfortunately, there is no available treatment for this disease. However, the veterinarian may prescribe
+        antibiotics to treat any other secondary bacterial infection.
+    </string>
+
+    <string name="mycoPrevent">
+        The best defense for Mycobacteriosis is prevention. Mycobacteria typically live in the slime layer
+        that builds up in aquatic habitats over time. For this reason, weekly cleaning and removal of this film
+        is recommended.
+    </string>
+
 </resources>

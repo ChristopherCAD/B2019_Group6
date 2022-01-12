@@ -85,13 +85,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 i = new Intent(this, pp_Hamster.class);
                 showToast("Redirecting to smol bean page...");
                 startActivity(i);
+                break;
             case R.id.cardGuinea:
                 i = new Intent(this, pp_Guinea_Pig.class);
                 showToast("Redirecting to Guinea 'page' :D...");
                 startActivity(i);
+                break;
             case R.id.cardLizard:
                 i = new Intent(this, pp_reptiles.class);
                 startActivity(i);
+                break;
             default:
                 break;
 

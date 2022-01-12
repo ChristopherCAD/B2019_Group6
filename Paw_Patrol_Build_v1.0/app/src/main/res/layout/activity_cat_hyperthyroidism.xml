@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cat_hyperthyroidism"
+    android:orientation="vertical"
+    android:background="@drawable/body_radius1">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:id="@+id/cAppbar"
+        android:fitsSystemWindows="true"
+        android:background="@color/transparent"
+        >
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapse"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/color"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            >
+
+            <ImageView
+                android:id="@+id/catCancer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|top|right"
+                android:layout_marginBottom="10dp"
+                app:layout_collapseMode="parallax"
+                android:src="@drawable/cat_hyperthyroidism_img"
+                >
+            </ImageView>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/ToolBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:background="@drawable/body_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hyperthyroidism in Cats"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_below="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hyperthyroidism"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/First_Aid_Section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Treatment for Hyperthyroidism"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:layout_below="@+id/First_Aid_Section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Radioactive Iodine Therapy"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_below="@+id/Disease1DescTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hypeTreatment1"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_below="@+id/First_Aid_Section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Surgery"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_below="@+id/Disease1DescTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hypeTreatment2"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_below="@+id/First_Aid_Section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Medication"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_below="@+id/Disease1DescTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hypeTreatment3"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/prevention"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to Prevent Hyperthyroidism"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Early Detection"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hypePrevent"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+                >
+            </TextView>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -13,7 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class pp_Catto extends AppCompatActivity {
+public class pp_Catto extends AppCompatActivity{
 
     Button cat_Search;
     CheckBox cs1, cs2, cs3, cs4, cs5;
@@ -61,8 +61,6 @@ public class pp_Catto extends AppCompatActivity {
         cat_disease5 = findViewById(R.id.catdisease5);
         cat_disease6 = findViewById(R.id.catdisease6);
 
-        showToast("Click Symptoms 1 to 5 for a demo.");
-        showToast("Click Symptom 6 for a comparison.");
 
         cat_Search.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -82,7 +80,7 @@ public class pp_Catto extends AppCompatActivity {
                     c.putExtra("cs6", cs6.isChecked());
                     startActivity(c);
                 } else {
-                    showToast("This section is under development." + Toast.LENGTH_SHORT);
+                    showToast("This section is under development.");
                 }
 
             }

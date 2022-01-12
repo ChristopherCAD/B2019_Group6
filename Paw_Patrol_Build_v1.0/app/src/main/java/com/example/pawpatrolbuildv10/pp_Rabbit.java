@@ -58,8 +58,6 @@ public class pp_Rabbit extends AppCompatActivity {
         rabbit_disease5 = findViewById(R.id.rabbitdisease5);
         rabbit_disease6 = findViewById(R.id.rabbitdisease6);
 
-
-
         rabbit_Search.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -67,9 +65,10 @@ public class pp_Rabbit extends AppCompatActivity {
 
                 if (rs1.isChecked() && rs3.isChecked() && rs4.isChecked() && rs2.isChecked()) {
                     r.putExtra("rs1", rs1.isChecked());
+                    r.putExtra("rs2", rs2.isChecked());
                     r.putExtra("rs3", rs3.isChecked());
                     r.putExtra("rs4", rs4.isChecked());
-                    r.putExtra("rs2", rs2.isChecked());
+
                     startActivity(r);
                     //rabbit_symptom1.setBackgroundColor(Color.parseColor("#FF0000"));
                     showToast("Searching for symptom-related diseases...");

@@ -42,7 +42,6 @@ public class pp_cat_diseases extends AppCompatActivity implements View.OnClickLi
         catDisease7.setOnClickListener(this);
 
 
-
         // Diseases Block
 
         cat_disease1 = findViewById(R.id.catdisease1);
@@ -56,23 +55,24 @@ public class pp_cat_diseases extends AppCompatActivity implements View.OnClickLi
 
         // Intent Block
 
-        Boolean check1 = getIntent().getExtras().getBoolean("cs1");
-        Boolean check2 = getIntent().getExtras().getBoolean("cs2");
-        Boolean check3 = getIntent().getExtras().getBoolean("cs3");
-        Boolean check4 = getIntent().getExtras().getBoolean("cs4");
-        Boolean check5 = getIntent().getExtras().getBoolean("cs5");
-        Boolean check6 = getIntent().getExtras().getBoolean("cs6");
+        Boolean meow1 = getIntent().getExtras().getBoolean("cs1");
+        Boolean meow2 = getIntent().getExtras().getBoolean("cs2");
+        Boolean meow3 = getIntent().getExtras().getBoolean("cs3");
+        Boolean meow4 = getIntent().getExtras().getBoolean("cs4");
+        Boolean meow5 = getIntent().getExtras().getBoolean("cs5");
+        Boolean meow6 = getIntent().getExtras().getBoolean("cs6");
 
-        if (check1 && check2 && check3 && check4 && check5) {
-            cat_disease1.setVisibility(View.GONE);
+
+        if (meow1 && meow2 && meow3 && meow4 && meow5) {
+            cat_disease7.setVisibility(View.GONE);
             cat_disease2.setVisibility(View.GONE);
             cat_disease3.setVisibility(View.GONE);
             cat_disease4.setVisibility(View.GONE);
             cat_disease5.setVisibility(View.GONE);
             cat_disease6.setVisibility(View.GONE);
             showToast("Conditions Met");
-        } else if (check6) {
-            cat_disease7.setVisibility(View.GONE);
+        } else if (meow6) {
+            cat_disease1.setVisibility(View.GONE);
         }
 
 
@@ -81,16 +81,23 @@ public class pp_cat_diseases extends AppCompatActivity implements View.OnClickLi
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
     public void onClick(View v) {
-        Intent activate;
+        Intent meow;
 
         switch (v.getId()) {
-            case R.id.catDisease7:
-                activate = new Intent(this, disease1_rabbit.class);
-                startActivity(activate);
+            case R.id.catDisease1:
+                meow = new Intent(this, cat_cancer.class);
+                startActivity(meow);
+                break;
+            case R.id.catDisease2:
+                meow = new Intent(this, cat_kidney_disease1.class);
+                startActivity(meow);
                 break;
             default:
                 showToast("This content is under development.");
                 break;
         }
     }
+
+    // Let's not give up on this
+    // Or I am seriously fucked.
 }

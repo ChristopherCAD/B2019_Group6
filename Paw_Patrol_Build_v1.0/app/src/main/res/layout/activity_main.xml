@@ -50,13 +50,15 @@
             app:cardCornerRadius="8dp"
             android:elevation="10dp"
             app:cardUseCompatPadding="true"
+            android:background="@color/white"
             >
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical|center_horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:background="@color/white">
 
                 <ImageView
                     android:layout_width="100dp"
@@ -80,13 +82,15 @@
             android:layout_column="1"
             app:cardCornerRadius="8dp"
             android:elevation="8dp"
-            app:cardUseCompatPadding="true">
+            app:cardUseCompatPadding="true"
+            android:background="@color/white">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical|center_horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:background="@color/white">
 
                 <ImageView
                     android:layout_width="100dp"
@@ -110,13 +114,15 @@
             android:layout_column="0"
             app:cardCornerRadius="8dp"
             android:elevation="8dp"
-            app:cardUseCompatPadding="true">
+            app:cardUseCompatPadding="true"
+            android:background="@color/white">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical|center_horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:background="@color/white">
 
                 <ImageView
                     android:layout_width="100dp"
@@ -140,13 +146,15 @@
             android:layout_column="1"
             app:cardCornerRadius="8dp"
             android:elevation="8dp"
-            app:cardUseCompatPadding="true">
+            app:cardUseCompatPadding="true"
+            android:background="@color/white">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical|center_horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:background="@color/white">
 
                 <ImageView
                     android:layout_width="100dp"
@@ -170,13 +178,15 @@
             android:layout_column="0"
             app:cardCornerRadius="8dp"
             android:elevation="8dp"
-            app:cardUseCompatPadding="true">
+            app:cardUseCompatPadding="true"
+            android:background="@color/white">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical|center_horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:background="@color/white">
 
                 <ImageView
                     android:layout_width="100dp"
@@ -200,13 +210,15 @@
             android:layout_column="1"
             app:cardCornerRadius="8dp"
             android:elevation="8dp"
-            app:cardUseCompatPadding="true">
+            app:cardUseCompatPadding="true"
+            android:background="@color/white">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical|center_horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:background="@color/white">
 
                 <ImageView
                     android:layout_width="100dp"
@@ -230,13 +242,15 @@
             android:layout_column="0"
             app:cardCornerRadius="8dp"
             android:elevation="8dp"
-            app:cardUseCompatPadding="true">
+            app:cardUseCompatPadding="true"
+            android:background="@color/white">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical|center_horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:background="@color/white">
 
                 <ImageView
                     android:layout_width="100dp"
@@ -261,13 +275,15 @@
             android:layout_column="1"
             app:cardCornerRadius="8dp"
             android:elevation="8dp"
-            app:cardUseCompatPadding="true">
+            app:cardUseCompatPadding="true"
+            android:background="@color/white">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical|center_horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:background="@color/white">
 
                 <ImageView
                     android:layout_width="100dp"

@@ -86,7 +86,7 @@ public class pp_dog_disease extends AppCompatActivity implements View.OnClickLis
             dog_disease6.setVisibility(View.GONE);
             showToast("Conditions Met");
         } else if (check6) {
-            dog_disease1.setVisibility(View.GONE);
+            dog_disease1.setVisibility(View.VISIBLE);
         }
 
     }
@@ -94,12 +94,12 @@ public class pp_dog_disease extends AppCompatActivity implements View.OnClickLis
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
     public void onClick(View v) {
-        Intent activate;
+        Intent woof;
 
         switch (v.getId()) {
             case R.id.dogDisease1:
-                activate = new Intent(this, disease1_rabbit.class);
-                startActivity(activate);
+                woof = new Intent(this, dog_canine_distemper.class);
+                startActivity(woof);
                 break;
             default:
                 showToast("This content is under development.");
