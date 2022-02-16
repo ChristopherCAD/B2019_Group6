@@ -25,14 +25,11 @@ public class pp_guinea_disease extends AppCompatActivity implements View.OnClick
 
         guineaDisease1 = findViewById(R.id.guineaDisease1);
         guineaDisease2 = findViewById(R.id.guineaDisease2);
-        guineaDisease3 = findViewById(R.id.guineaDisease5);
+        guineaDisease3 = findViewById(R.id.guineaDisease3);
         guineaDisease4 = findViewById(R.id.guineaDisease4);
-        guineaDisease5 = findViewById(R.id.birdDisease5);
-        guineaDisease6 = findViewById(R.id.birdDisease6);
-        guineaDisease7 = findViewById(R.id.birdDisease7);
-        guineaDisease8 = findViewById(R.id.birdDisease8);
-        guineaDisease9 = findViewById(R.id.birdDisease9);
-        guineaDisease10 = findViewById(R.id.birdDisease10);
+        guineaDisease5 = findViewById(R.id.guineaDisease5);
+        guineaDisease6 = findViewById(R.id.guineaDisease6);
+        guineaDisease7 = findViewById(R.id.guineaDisease7);
 
         // Click Listener Block
 
@@ -42,7 +39,7 @@ public class pp_guinea_disease extends AppCompatActivity implements View.OnClick
         guineaDisease4.setOnClickListener(this);
         guineaDisease5.setOnClickListener(this);
         guineaDisease6.setOnClickListener(this);
-        guineaDisease7.setOnClickListener(this);;
+        guineaDisease7.setOnClickListener(this);
         guineaDisease8.setOnClickListener(this);
         guineaDisease9.setOnClickListener(this);
         guineaDisease10.setOnClickListener(this);
@@ -56,9 +53,6 @@ public class pp_guinea_disease extends AppCompatActivity implements View.OnClick
         guinea_disease5 = findViewById(R.id.guineadisease5);
         guinea_disease6 = findViewById(R.id.guineadisease6);
         guinea_disease7 = findViewById(R.id.guineadisease7);
-        guinea_disease8 = findViewById(R.id.guineadisease8);
-        guinea_disease9 = findViewById(R.id.guineadisease9);
-        guinea_disease10 = findViewById(R.id.guineadisease10);
 
         // Intent Block
 
@@ -72,17 +66,76 @@ public class pp_guinea_disease extends AppCompatActivity implements View.OnClick
         Boolean check8 = getIntent().getExtras().getBoolean("gs8");
         Boolean check9 = getIntent().getExtras().getBoolean("gs9");
         Boolean check10 = getIntent().getExtras().getBoolean("gs10");
+        Boolean check11 = getIntent().getExtras().getBoolean("gs11");
+        Boolean check12 = getIntent().getExtras().getBoolean("gs12");
+        Boolean check13 = getIntent().getExtras().getBoolean("gs13");
+        Boolean check14 = getIntent().getExtras().getBoolean("gs14");
+        Boolean check15 = getIntent().getExtras().getBoolean("gs15");
+        Boolean check16 = getIntent().getExtras().getBoolean("gs16");
+        Boolean check17 = getIntent().getExtras().getBoolean("gs17");
+        Boolean check18 = getIntent().getExtras().getBoolean("gs18");
+        Boolean check19 = getIntent().getExtras().getBoolean("gs19");
 
         if (check1 && check2 && check3 && check4 && check5) {
-            guinea_disease1.setVisibility(View.GONE);
+
+            // Respiratory Infections
+
             guinea_disease2.setVisibility(View.GONE);
             guinea_disease3.setVisibility(View.GONE);
             guinea_disease4.setVisibility(View.GONE);
             guinea_disease5.setVisibility(View.GONE);
             guinea_disease6.setVisibility(View.GONE);
-            showToast("Conditions Met");
-        } else if (check6) {
+
+        } else if (check2 && check6 && check7 && check8 && check9) {
+
+            // Diarrhea
+
             guinea_disease1.setVisibility(View.GONE);
+            guinea_disease3.setVisibility(View.GONE);
+            guinea_disease4.setVisibility(View.GONE);
+            guinea_disease5.setVisibility(View.GONE);
+            guinea_disease6.setVisibility(View.GONE);
+
+        } else if (check6 && check11 && check12 && check13 && check14) {
+
+            // Scurvy
+
+            guinea_disease1.setVisibility(View.GONE);
+            guinea_disease2.setVisibility(View.GONE);
+            guinea_disease4.setVisibility(View.GONE);
+            guinea_disease5.setVisibility(View.GONE);
+            guinea_disease6.setVisibility(View.GONE);
+
+        } else if (check6 && check15 && check16 && check17 && check18) {
+
+            // Abscess
+
+            guinea_disease1.setVisibility(View.GONE);
+            guinea_disease2.setVisibility(View.GONE);
+            guinea_disease3.setVisibility(View.GONE);
+            guinea_disease5.setVisibility(View.GONE);
+            guinea_disease6.setVisibility(View.GONE);
+
+        } else if (check6 && check7 && check8) {
+
+            // Urinary Problems
+
+            guinea_disease1.setVisibility(View.GONE);
+            guinea_disease2.setVisibility(View.GONE);
+            guinea_disease3.setVisibility(View.GONE);
+            guinea_disease4.setVisibility(View.GONE);
+            guinea_disease6.setVisibility(View.GONE);
+
+        } else if (check6 && check14 && check15 && check19) {
+
+            // bumblefoot
+
+            guinea_disease1.setVisibility(View.GONE);
+            guinea_disease2.setVisibility(View.GONE);
+            guinea_disease3.setVisibility(View.GONE);
+            guinea_disease4.setVisibility(View.GONE);
+            guinea_disease5.setVisibility(View.GONE);
+
         }
 
     }

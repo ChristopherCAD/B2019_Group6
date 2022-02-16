@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/wlcmimg">
+
+    <LinearLayout
+        android:id="@+id/MenuLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:fontFamily="monospace"
+        android:text="Select your pet!"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="italic" />
+
+    <GridLayout
+        android:layout_below="@id/txtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:columnCount="2"
+        android:rowCount="4">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardCat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="0"
+            android:layout_column="0"
+            app:cardCornerRadius="8dp"
+            android:elevation="10dp"
+            app:cardUseCompatPadding="true"
+            android:background="@color/white"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_cat1">
+
+                </ImageView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardDog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="0"
+            android:layout_column="1"
+            app:cardCornerRadius="8dp"
+            android:elevation="8dp"
+            app:cardUseCompatPadding="true"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_dog_vector1">
+
+                </ImageView>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardBird"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="1"
+            android:layout_column="0"
+            app:cardCornerRadius="8dp"
+            android:elevation="8dp"
+            app:cardUseCompatPadding="true"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_bird">
+
+                </ImageView>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardRabbit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="1"
+            android:layout_column="1"
+            app:cardCornerRadius="8dp"
+            android:elevation="8dp"
+            app:cardUseCompatPadding="true"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_rabbit1">
+
+                </ImageView>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardFrog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="2"
+            android:layout_column="0"
+            app:cardCornerRadius="8dp"
+            android:elevation="8dp"
+            app:cardUseCompatPadding="true"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_frog1">
+
+                </ImageView>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardLizard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="2"
+            android:layout_column="1"
+            app:cardCornerRadius="8dp"
+            android:elevation="8dp"
+            app:cardUseCompatPadding="true"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_lizard1">
+
+                </ImageView>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardHamster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="3"
+            android:layout_column="0"
+            app:cardCornerRadius="8dp"
+            android:elevation="8dp"
+            app:cardUseCompatPadding="true"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_hamster1">
+
+                </ImageView>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardGuinea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="3"
+            android:layout_column="1"
+            app:cardCornerRadius="8dp"
+            android:elevation="8dp"
+            app:cardUseCompatPadding="true"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_guinea_pig1">
+
+                </ImageView>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+    </LinearLayout>
+
+    <!-- Set Floating Action Button visibility to invisible. -->
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/pawMenuButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MenuLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        app:fabCustomSize="60dp"
+        app:maxImageSize="75dp"
+        app:srcCompat="@drawable/ic_paw_vector" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/catFloat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MenuLayout"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="-10dp"
+        android:layout_toLeftOf="@+id/dogFloat"
+        android:layout_weight="1"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        app:fabCustomSize="50dp"
+        app:maxImageSize="30dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_cat_vector" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/dogFloat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MenuLayout"
+        android:layout_toLeftOf="@id/birdFloat"
+        android:layout_marginRight="-10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        app:fabCustomSize="50dp"
+        app:maxImageSize="30dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_dog_menu" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/birdFloat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MenuLayout"
+        android:layout_toLeftOf="@id/rabbitFloat"
+        android:layout_marginRight="-10dp"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        app:fabCustomSize="50dp"
+        app:maxImageSize="45dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_bird_vector" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/rabbitFloat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MenuLayout"
+        android:layout_toLeftOf="@+id/pawMenuButton"
+        android:layout_marginRight="-15dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        app:fabCustomSize="50dp"
+        app:maxImageSize="45dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_rabbit_vector" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/frogFloat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MenuLayout"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/pawMenuButton"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        app:fabCustomSize="50dp"
+        app:maxImageSize="45dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_frog_vector" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/reptileFloat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MenuLayout"
+        android:layout_toRightOf="@+id/frogFloat"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        app:fabCustomSize="50dp"
+        app:maxImageSize="45dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_reptile_vector" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/hamsterFloat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MenuLayout"
+        android:layout_toRightOf="@+id/reptileFloat"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        app:fabCustomSize="50dp"
+        app:maxImageSize="30dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_hamster_vector1" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/guineaFloat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MenuLayout"
+        android:layout_toRightOf="@+id/hamsterFloat"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        app:fabCustomSize="50dp"
+        app:maxImageSize="50dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_guinea_vector" />
+
+</RelativeLayout>

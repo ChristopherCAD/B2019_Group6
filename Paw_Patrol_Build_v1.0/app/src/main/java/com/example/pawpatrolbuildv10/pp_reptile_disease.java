@@ -30,9 +30,6 @@ public class pp_reptile_disease extends AppCompatActivity implements View.OnClic
         reptileDisease5 = findViewById(R.id.reptileDisease5);
         reptileDisease6 = findViewById(R.id.reptileDisease6);
         reptileDisease7 = findViewById(R.id.reptileDisease7);
-        reptileDisease8 = findViewById(R.id.reptileDisease8);
-        reptileDisease9 = findViewById(R.id.reptileDisease9);
-        reptileDisease10 = findViewById(R.id.reptileDisease10);
 
         // Click Listener Block
 
@@ -42,7 +39,7 @@ public class pp_reptile_disease extends AppCompatActivity implements View.OnClic
         reptileDisease4.setOnClickListener(this);
         reptileDisease5.setOnClickListener(this);
         reptileDisease6.setOnClickListener(this);
-        reptileDisease7.setOnClickListener(this);;
+        reptileDisease7.setOnClickListener(this);
         reptileDisease8.setOnClickListener(this);
         reptileDisease9.setOnClickListener(this);
         reptileDisease10.setOnClickListener(this);
@@ -56,9 +53,6 @@ public class pp_reptile_disease extends AppCompatActivity implements View.OnClic
         reptile_disease5 = findViewById(R.id.reptiledisease5);
         reptile_disease6 = findViewById(R.id.reptiledisease6);
         reptile_disease7 = findViewById(R.id.reptiledisease7);
-        reptile_disease8 = findViewById(R.id.reptiledisease8);
-        reptile_disease9 = findViewById(R.id.reptiledisease9);
-        reptile_disease10 = findViewById(R.id.reptiledisease10);
 
         // Intent Block
 
@@ -72,17 +66,70 @@ public class pp_reptile_disease extends AppCompatActivity implements View.OnClic
         Boolean check8 = getIntent().getExtras().getBoolean("ls8");
         Boolean check9 = getIntent().getExtras().getBoolean("ls9");
         Boolean check10 = getIntent().getExtras().getBoolean("ls10");
+        Boolean check11 = getIntent().getExtras().getBoolean("ls11");
+        Boolean check12 = getIntent().getExtras().getBoolean("ls12");
+        Boolean check13 = getIntent().getExtras().getBoolean("ls13");
+        Boolean check14 = getIntent().getExtras().getBoolean("ls14");
+        Boolean check15 = getIntent().getExtras().getBoolean("ls15");
 
-        if (check1 && check2 && check3 && check4 && check5) {
-            reptile_disease1.setVisibility(View.GONE);
+        if (check1 && check2 && check3) {
+
+            // Ear Infections
+
             reptile_disease2.setVisibility(View.GONE);
             reptile_disease3.setVisibility(View.GONE);
             reptile_disease4.setVisibility(View.GONE);
             reptile_disease5.setVisibility(View.GONE);
             reptile_disease6.setVisibility(View.GONE);
-            showToast("Conditions Met");
-        } else if (check6) {
-            reptile_disease7.setVisibility(View.GONE);
+
+        } else if (check3 && check4 && check5 && check6 && check7) {
+
+            // Amebiasis
+
+            reptile_disease1.setVisibility(View.GONE);
+            reptile_disease3.setVisibility(View.GONE);
+            reptile_disease4.setVisibility(View.GONE);
+            reptile_disease5.setVisibility(View.GONE);
+            reptile_disease6.setVisibility(View.GONE);
+
+        } else if (check8 && check9 && check13) {
+
+            // Mouth Rot + Herpesvirus
+
+            reptile_disease1.setVisibility(View.GONE);
+            reptile_disease2.setVisibility(View.GONE);
+            reptile_disease4.setVisibility(View.GONE);
+            reptile_disease6.setVisibility(View.GONE);
+
+        } else if (check10 && check11 && check12) {
+
+            // Metabolic Bone Disease
+
+            reptile_disease1.setVisibility(View.GONE);
+            reptile_disease2.setVisibility(View.GONE);
+            reptile_disease3.setVisibility(View.GONE);
+            reptile_disease5.setVisibility(View.GONE);
+            reptile_disease6.setVisibility(View.GONE);
+
+        } else if (check8 && check9 && check13 && check14) {
+
+            // Herpesvirus + Mouth Rot
+
+            reptile_disease1.setVisibility(View.GONE);
+            reptile_disease2.setVisibility(View.GONE);
+            reptile_disease4.setVisibility(View.GONE);
+            reptile_disease6.setVisibility(View.GONE);
+
+        } else if (check3 && check6 && check14) {
+
+            // Fungal Infections
+
+            reptile_disease1.setVisibility(View.GONE);
+            reptile_disease2.setVisibility(View.GONE);
+            reptile_disease3.setVisibility(View.GONE);
+            reptile_disease4.setVisibility(View.GONE);
+            reptile_disease5.setVisibility(View.GONE);
+
         }
 
     }
@@ -94,9 +141,14 @@ public class pp_reptile_disease extends AppCompatActivity implements View.OnClic
 
         switch (v.getId()) {
             case R.id.reptileDisease1:
-                activate = new Intent(this, disease1_rabbit.class);
+                activate = new Intent(this, reptile_mouthRot.class);
                 startActivity(activate);
                 break;
+            case R.id.reptileDisease2:
+                activate = new Intent(this, reptiles_antemoeba.class);
+                startActivity(activate);
+                break;
+
             default:
                 showToast("This content is under development.");
                 break;

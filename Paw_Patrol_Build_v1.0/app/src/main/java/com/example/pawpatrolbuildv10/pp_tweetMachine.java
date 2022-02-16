@@ -58,9 +58,6 @@ public class pp_tweetMachine extends AppCompatActivity {
         bird_disease5 = findViewById(R.id.birddisease5);
         bird_disease6 = findViewById(R.id.birddisease6);
         bird_disease7 = findViewById(R.id.birddisease7);
-        bird_disease8 = findViewById(R.id.birddisease8);
-        bird_disease9 = findViewById(R.id.birddisease9);
-        bird_disease10 = findViewById(R.id.birddisease10);
 
         showToast("Click Symptoms 1 to 5 for a demo.");
         showToast("Click Symptom 6 for a comparison.");
@@ -72,18 +69,73 @@ public class pp_tweetMachine extends AppCompatActivity {
 
                 showToast("Click Symptoms 1 to 5 (for demo)" + Toast.LENGTH_LONG);
 
-                if (bs1.isChecked() && bs2.isChecked() && bs3.isChecked() && bs4.isChecked() && bs5.isChecked()) {
+                if (bs1.isChecked() && bs2.isChecked() && bs3.isChecked() && bs13.isChecked() && bs18.isChecked()) {
+
+                    // Salmonella
+
                     b.putExtra("bs1", bs1.isChecked());
                     b.putExtra("bs2", bs2.isChecked());
                     b.putExtra("bs3", bs3.isChecked());
+                    b.putExtra("bs13", bs13.isChecked());
+                    b.putExtra("bs18", bs18.isChecked());
+                    startActivity(b);
+
+                    // Try nest If for different conditions
+                    // It might work, who knows...
+                    // Or just put every disease in here lmao.
+
+                } else if (bs4.isChecked() && bs5.isChecked() && bs6.isChecked() && bs11.isChecked()) {
+
+                    // Bird Mites
+
                     b.putExtra("bs4", bs4.isChecked());
                     b.putExtra("bs5", bs5.isChecked());
-                    startActivity(b);
-                } else if (bs6.isChecked()) {
                     b.putExtra("bs6", bs6.isChecked());
+                    b.putExtra("bs11", bs11.isChecked());
                     startActivity(b);
+
+                } else if (bs4.isChecked() && bs7.isChecked() && bs8.isChecked() && bs9.isChecked() && bs10.isChecked()) {
+
+                    // Feather Disease
+                    b.putExtra("bs4", bs4.isChecked());
+                    b.putExtra("bs7", bs4.isChecked());
+                    b.putExtra("bs8", bs4.isChecked());
+                    b.putExtra("bs9", bs4.isChecked());
+                    b.putExtra("bs10", bs4.isChecked());
+                    startActivity(b);
+
+                } else if (bs2.isChecked() && bs5.isChecked() && bs12.isChecked() && bs13.isChecked() && bs14.isChecked()) {
+
+                    // Pacheco Disease
+                    b.putExtra("bs2", bs2.isChecked());
+                    b.putExtra("bs5", bs5.isChecked());
+                    b.putExtra("bs12", bs12.isChecked());
+                    b.putExtra("bs13", bs13.isChecked());
+                    b.putExtra("bs14", bs14.isChecked());
+                    startActivity(b);
+
+                } else if (bs15.isChecked() && bs16.isChecked() && bs17.isChecked() && bs18.isChecked()) {
+
+                    // PoxVirus Infection 15, 16, 17, 18
+                    b.putExtra("bs15", bs15.isChecked());
+                    b.putExtra("bs16", bs16.isChecked());
+                    b.putExtra("bs17", bs17.isChecked());
+                    b.putExtra("bs18", bs18.isChecked());
+                    startActivity(b);
+
+                } else if (bs14.isChecked() && bs19.isChecked() && bs20.isChecked() && bs21.isChecked()) {
+
+                    // West Nile Virus
+                    b.putExtra("bs14", bs14.isChecked());
+                    b.putExtra("bs19", bs19.isChecked());
+                    b.putExtra("bs20", bs20.isChecked());
+                    b.putExtra("bs21", bs21.isChecked());
+                    startActivity(b);
+
                 } else {
-                    showToast("This section is under development." + Toast.LENGTH_SHORT);
+
+                    showToast("Sorry.");
+
                 }
             }
         });

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frog_mycobacteriosis"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/rAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:background="@color/secondaryColor"
+        android:fitsSystemWindows="true"
+        >
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/overGrownCollapse"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            android:background="@drawable/frog_mycobacteriosis">
+
+            <ImageView
+                android:id="@+id/imgOvergrown"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|top|right"
+                android:layout_marginBottom="10dp"
+                app:layout_collapseMode="parallax"
+                >
+            </ImageView>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/OGTtoolBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:background="@drawable/body_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <com.google.android.material.chip.ChipGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp">
+
+                <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Extreme Weight Loss"
+                    app:chipBackgroundColor="@color/chipColor"
+                    app:chipCornerRadius="5dp"/>
+
+                <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Skin Sores"
+                    app:chipBackgroundColor="@color/chipColor"
+                    app:chipCornerRadius="5dp"/>
+
+                <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Skin Ulcers"
+                    app:chipBackgroundColor="@color/chipColor"
+                    app:chipCornerRadius="5dp"/>
+
+                <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Skin Sores"
+                    app:chipBackgroundColor="@color/chipColor"
+                    app:chipCornerRadius="5dp"/>
+
+                <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mucus Discharge"
+                    app:chipBackgroundColor="@color/chipColor"
+                    app:chipCornerRadius="5dp"/>
+
+                <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Warts or Lumps in Skin"
+                    app:chipBackgroundColor="@color/chipColor"
+                    app:chipCornerRadius="5dp"/>
+
+            </com.google.android.material.chip.ChipGroup>
+
+            <TextView
+                android:id="@+id/Disease1DescTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mycobacteriosis"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:id="@+id/descriptionOG"
+                android:layout_below="@+id/Disease1DescTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Mycobacteriosis"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="First Aid for Mycobacteriosis"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:layout_below="@+id/Disease1DescTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. ENROFLOXACIN (BAYTRIL)"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_below="@+id/Disease1DescTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mycoFirstAid"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Treatment for Mycobacteriosis"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:layout_below="@+id/Disease1DescTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mycoMed"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to Prevent Mycobacteriosis"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:layout_below="@+id/Disease1DescTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/obesityPrevent"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+
+                >
+
+            </TextView>
+
+            <Button
+                android:id="@+id/vetFindMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Vet Near Me" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

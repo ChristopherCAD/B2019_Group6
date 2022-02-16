@@ -855,12 +855,12 @@
         Generally referred to as obesity, excess body weight is as much a problem in amphibians as it is in humans.
         This nutritional disorder puts a strain on and taxes many of the body organs, even resulting in death some cases.
     </string>
-    
+
     <string name="obesityFirstAid">
         Limiting your frog`s feeding session is the only way to control its diet. Don`t overfeed a frog as it will cause
         it to gain excessive wait that might lead to obesity.
     </string>
-    
+
     <string name="obesityMed1">
         Enlarge the amphibian’s living area or enclosure. Increasing the animal’s activity will improve its metabolic rate,
         allowing it to burn excess calories.
@@ -902,7 +902,7 @@
             </br>
         </br>
     </string>
-    
+
     <string name="mycoFirstAid">
         Treat with ENROFLOXACIN (BAYTRIL) Put 8 drops in 125ml Tepid water. Put a lid on the bowl and make
         sure the frogs’ head stays above the water. Duration: 15 min. each day for 6 days.
@@ -919,4 +919,459 @@
         is recommended.
     </string>
 
+    // Reptiles Disease Content
+
+    <string name="earInfections">
+        Lizards and other reptiles are prone to ear infections. A bulging ear drum, pus around the ears and pain when the
+        mouth is opened are all key ear infection symptoms.
+        <br>
+        <br>
+        Head shaking and general sensitivity around the ears 
+        are other clues.
+        </br>
+        </br>
+    </string>
+
+    <string name="earInfectionsMed1">
+        Surgery is required to remove the hardened pus from an aural abscess, but this is rarely life threatening.
+        This the most effective and safest means of treating it.
+    </string>
+
+    <string name="earInfectionsMed2">
+        Antibiotic ear drops are generally used to treat a bacterial ear infection, also known as bacterial otitis
+        externa. Topical preparations are available as single medications or as combinations; common antibiotic preparations
+        include neomycin, gentamicin, polymyxin B, enrofloxacin and silver sulfadiazine.
+    </string>
+
+    <string name="earInfectionsMed3">
+        The surfaces of the habitat should be kept very clean, with water and food bowls changed out and disinfected every
+        few days. Chemicals should not be used. Environmental humidity and temperature should also be carefully monitored.
+    </string>
+
+    <string name="Entemoeba">
+        Is a bacterial infection that is more likely to affect carnivorous reptiles, especially those that eat a diet of raw
+        meat. Insect-eating reptiles are less likely to be infected with this disease.
+    </string>
+
+    <string name="entemoebaMed1">
+        Antibiotics work well against treating bacteria. There are a number of antibiotics that you can give your pet
+        reptile, but a consultation from a vet will do your reptile more good.
+    </string>
+
+    <string name="amebiasisPrevent1">
+        Make sure that the food that you are feeding your reptile is safe from the bacteria. Buy your food from well-known
+        shops that serves food for reptiles.
+    </string>
+
+    <string name="amebiasisPrevent2">
+        Cleaning your reptile`s cage regularly is a must. A well-cleaned aquarium or cage for your reptile will help
+        clear out any lingering disease causing bacteria.
+    </string>
+
+    <string name="MBD">
+        This disease can cause bowed legs or other deformities in reptiles, including soft shells in turtles. Reptiles
+        that eat only plants or insects are more prone to developing metabolic bone disease because they ingest insufficient
+        calcium.
+    </string>
+
+    <string name="mbdFirstAid">
+        Drink calcium vitamins and rich proper diet for the reptiles and natural sunlight is the best
+    </string>
+
+    <string name="mbdMed1">
+        may require a short term prescription of oral doses of calcium glubionate or injections of calcium gluconate.
+        Once blood calcium levels are sufficient, calcitonin may be administered to accelerate calcium deposition on the bone.
+    </string>
+
+    <string name="mbdPrevent">
+        A balanced diet with adequate amounts of vitamin D and calcium and an adequate amount of physical activity are needed for normal
+        bone metabolism.
+    </string>
+
+    <string name="mouthRot">
+        More formally called stomatitis, this disease is caused by bad diet as well as poor temperature and
+        humidity conditions in a reptile`s habitat. Mouth sores or infected tissues will develop, and in severe cases,
+        surgery may be required.
+    </string>
+
+    <string name="mouthRodFirstAid">
+        If your reptile`s mouth suddenly starts showing smal patches of darkening skin, you can start by gently cleaning it.
+        Cleaning it with Q-tip with a solution prescribed by your vet.
+    </string>
+
+    <string name="mouthRotmed1">
+        Antibiotics and a thorough cleaning of your pet’s mouth will likely follow. In severe cases, surgery might be required to
+        remove dead or intensely damaged oral tissue.
+    </string>
+
+    <string name="mouthRotPrevent">
+        Make sure your reptile’s diet is a quality and healthy one. Keep the terrarium environment clean with weekly
+        disinfecting sessions and daily checks for dirty spots or uneaten food.
+    </string>
+
+    <string name="Herpesvirus">
+        This viral infection is especially common among turtles and tortoises, which may show excessive itching or mouth
+        sores in addition to other symptoms. Left untreated, this disease can cause severe liver damage as well as
+        damage to the digestive tract.
+    </string>
+
+    <string name="herpesMed1">
+        Vets usually prescribe Oral Medications that will be regularly taken by your reptile. For more information,
+        take your reptile to the nearest vet clinic.
+    </string>
+
+    <string name="herpesMed2">
+        Another treatment that your vet will likely suggest is antiviral medicines for the infection. The medication
+        can either be ointment (for application on mouth sores), or oral medicine (for generic treatment of the
+        disease).
+    </string>
+
+    <string name="herpesPrevent">
+        To prevent the Herpesvirus from spreading, the pet reptile`s habitat needs to be thoroughly disinfected.
+    </string>
+
+    <string name="fungalInfection">
+        These can happen as a result of bacterial grown from living in damp conditions, for some reptiles this is the
+        correct environment but that doesn’t mean to say it shouldn’t be monitored.
+        <br><br>
+            The skin will become damp, weak and damaged. It’s a good idea to try an anti-fungal spray which is specially
+            designed for reptiles or consult your specialist exotics vet.
+        </br></br>
+    </string>
+
+    <string name="fungalFirstAid1">
+        Antifungal creams will slowly help the recovery of your reptile`s skin. Antifungal creams and ointments
+        are effective against common fungal bacterias. 
+    </string>
+
+    <string name="fungalMed1">
+        Antibiotic treatment is usually recommended following surgery to prevent any secondary infection.
+    </string>
+
+    <string name="fungalPrevent1">
+        Good sanitation and a well-balanced diet may decrease the incidents of fungal diseases in reptiles.
+    </string>
+
+    // Hamster Block
+
+    <string name="wetTails">
+        Loose, watery and possibly more-frequent bowel movements — is a common problem. It may be present alone or be
+        associated with other symptoms, such as nausea, vomiting, abdominal pain or weight loss.  Luckily, diarrhea is
+        usually short-lived, lasting no more than a few days.
+
+    </string>
+
+    <string name="wetTailsFirstAid">
+        Diarrhea will most of the time dehydrate your pet hamster. So, making sure that your hamster is drinking
+        water regularly is the first thing you need to do when it`s experiencing diarrhea.
+    </string>
+
+    <string name="wetTailsMed1">
+        Your veterinarian will diagnose your hamster and will likely put it under a fluid administration treatment
+        to counter the dehydration caused by the diarrhea.
+    </string>
+
+    <string name="wetTailsOPrevent">
+        Sick hamsters should be kept separate from other hamsters to prevent spreading the illness, and the cages
+        of both the sick and healthy animals should be thoroughly cleaned and sanitized.
+    </string>
+
+    <string name="wetTailsOPrevent1">
+        Keep your hamster cage away from drafts (such as by windows and doors) and in an area with a consistently warm temperature
+        as this will be a way for algae build up in your hamster`s water bottle.
+    </string>
+
+    <string name="atrialThrombosis">
+        Arterial thrombosis is the formation of a thrombus within an artery. In most cases, arterial thrombosis follows rupture
+        of atheroma (a fat-rich deposit in the blood vessel wall), and is therefore referred to as atherothrombosis.
+        Arterial embolism occurs when clots then migrate downstream and can affect any organ.
+    </string>
+
+    <string name="atrialMed1">
+        There is no known effective treatment to treat Atrial Thrombosis. Hamsters with this disease usually dies
+        one week after showing signs.
+        <br>
+        <br>
+        Veterinarians will likely use a medicine called  thrombolytic which can dissolve some blood clots.
+        </br>
+        </br>
+    </string>
+
+    <string name="atrialPrevent">
+        Atrial Thrombosis usually occur with hamsters of old age. The best prevention for this disease is to give them
+        a healthy diet to lower the chances of acquiring this illness.
+    </string>
+
+    <string name="tyzzerDisease">
+        Tyzzer’s disease is an acute epizootic bacterial disease found in rodents, rabbits, dogs, cats, birds, pandas, deer, foals, cattle,
+        and other mammals including gerbils. It is caused by the spore-forming bacterium Clostridium piliforme, formerly known as Bacillus
+    </string>
+
+    <string name="tyzzerMed1">
+        Your veterinarian will often treat Tyzzer`s disease by administering broad-spectrum antibiotic drugs. He or she may also prescribe vitamin
+        and mineral supplements to help improve the health status and immunity of the infected hamsters.
+        <br>
+            <br>
+                 If the hamster is dehydrated, fluids and electrolyte supplements may be administered.
+            </br>
+        </br>
+    </string>
+
+    <string name="tyzzerPrevent">
+        Routinely cleaning the hamster`s living area and separating healthy hamsters from those suspected of infection are two
+        good ways of preventing the spread of Tyzzer`s disease.
+    </string>
+
+    <string name="Salmonella">
+        Salmonella infection (salmonellosis) is a common bacterial disease that affects the intestinal tract.
+        Salmonella bacteria typically live in animal and human intestines and are shed through feces.
+    </string>
+
+    <string name="salmonellaMed">
+        Broad-spectrum antibiotic drugs and supportive therapy with fluids and electrolyte supplements may be used, but only in mild cases.
+        <br>
+            <br>
+                A hamster recovering from salmonella infection will be weak and require your extra care.
+                Consult your veterinarian regarding the hamster`s diet and medication regimen. However,
+                use extreme caution while handling infected hamsters, as there is a chance you may contract
+                the Salmonella infection from your pet.
+            </br>
+        </br>
+    </string>
+
+    <string name="salmonellaPrevent">
+        almonella infection is highly contagious and is mainly transmitted in hamsters through ingestion of food
+        and water contaminated with infected feces, urine and bedding material. Therefore, regularly cleaning
+        the cages and removing feces, urine, and soiled bedding material is essential.
+        <br>
+        <br>In addition, remove
+        any hamster suspected of being infected to avoid an outbreak.
+        </br>
+        </br>
+    </string>
+
+    <string name="Tapeworms">
+        Tapeworm infection is caused by ingesting food or water contaminated with tapeworm eggs or larvae. If you
+        ngest certain tapeworm eggs, they can migrate outside your intestines and form larval cysts in body tissues and organs (invasive infection).
+    </string>
+
+    <string name="tapewormMed">
+        Endoparasitic infection is easily treatable and several specially formulated anthelminthic drugs are
+        available to kill tapeworms.
+        <br>
+            <br>
+                Hamsters with a heavy endoparasitic infection or those that have gone undiagnosed for a long time may
+                require fluid  and electrolyte therapy. Your veterinarian may also recommend giving the hamster
+                vitamin and mineral supplements to improve the animal`s body condition.
+            </br>
+        </br>
+    </string>
+
+    <string name="tapewormPrevent">
+        In addition to maintaining proper sanitation techniques, bringing the hamster to your veterinarian for regular
+        deworming appointments is the best way of preventing incidences of tapeworm infections.
+    </string>
+
+    <string name="Pneumonia">
+        Pneumonia, or inflammation of the lungs, is not usually encountered in hamsters. When it does occur, it is
+        typically the result of an infection with one or more kinds of bacteria, sometimes in conjunction with viruses or
+        other types of infectious agents.
+        <br>
+        <br>These infections are especially hard for the hamster to fight off when
+        there are stress-inducing changes to the environment, such as a sudden change in room temperature.
+        </br>
+        </br>
+    </string>
+
+    <string name="pneumoniaMed">
+        Unfortunately, treatment is not effective in severe cases of pneumonia. Hamsters with mild cases of
+        pneumonia, meanwhile, respond well to treatment, though this typically involves treating the signs rather
+        than the condition itself. For example, oxygen therapy may be administered to help the animal breathe easier.
+        <br>
+            <br>
+                However, if the pneumonia is caused by a bacterial infection, your veterinarian will likely prescribe long-term
+                antibiotics.
+            </br>
+        </br>
+    </string>
+
+    <string name="pneumoniaPrevent">
+        It is vital that you remove any pneumonic hamsters from the healthy animals to prevent the spread of
+        infection. Keep those that are infected in a calm and clean area so that they may rest.
+        <br><br>
+            Avoid overcrowding the cages and keep them warm, dry, and free of soiled bedding material.
+        </br></br>
+    </string>
+    
+    // Guinea Pig String Block
+    
+    <string name="respiratoryInfection">
+        Pneumonia, the clinical name given to inflammation of the lungs, is the most frequent cause of death
+        in guinea pigs. It is also a contagious condition in groups of guinea pigs.
+    </string>
+
+    <string name="respMed">
+        In general, treatment for guinea pigs will consist of alleviating the symptoms rather than for the pneumonia
+        itself. The main goal is to support the body so that it can recover form the diseased condition.
+        
+        <br>
+        <br>
+            Supportive therapy with fluids may be necessary in cases of dehydration due to appetite loss, oxygen 
+            therapy may be needed to help with respiratory distress, and administration of vitamin C may be needed 
+            to help improve your guinea pig`s immune system and ward off opportunistic infections.
+        </br>
+        </br>
+    </string>
+    
+    <string name="respPrevent">
+        Properly cleaning the cages, changing soiled bedding material, and regularly removing feces and urine and
+        routinely is essential for the prevention of pneumonia, and for keeping infections under control when they do
+        occur.
+    </string>
+
+    <string name="diarrheaGuinea">
+        Guinea pigs have a sensitive gastrointestinal tract (as do rabbits). They have a very specific natural
+        population of "good" gastrointestinal bacteria (flora) critical to normal bowel function.
+        <br>
+            <br>
+                 If this normal bacterial flora becomes altered or unbalanced, `bad` (often gas-producing) bacteria
+                can overgrow, produce painful gas, slow down digestion and food passage through the intestinal
+                tract, damage the intestinal tissues, release toxins, cause severe diarrhea, and in severe cases,
+                death.
+            </br>
+        </br>
+    </string>
+
+    <string name="diarrheaFirstAid">
+        Whenever your pet has a diarrhea, the first thing you should do is always take it to the vet to check for
+        underlying illness. But for the meantime, give your guinea pig a source of hydration. Water bowls,
+        water bottles, etc. Diarrhea can be very dehydrating for animals.
+    </string>
+
+    <string name="diarrheaMed">
+        If your pet refuses to drink water, take it to the vet for IV Fluid treatment. Antibiotics may be necessary
+        if the diarrhea is caused by bacterial infection.
+    </string>
+
+    <string name="diarrheaPrevent">
+        Ensuring that adequate roughage is included in your pet’s diet can prevent diet-related diarrhea.
+        Diarrhea due to an infection, on the other hand, may be prevented by keeping the guinea pig`s bedding,
+        water bottle, and living environment clean and sanitized; promptly removing uneaten food before it rots
+        can also reduce the level of disease-causing organisms.
+    </string>
+
+    <string name="Scurvy">
+        Guinea pigs and primates cannot manufacture their own vitamin C; therefore, they must take in vitamin C in
+        their diets. The majority of other animals can produce their own vitamin C through their intestinal bacterial
+        and maintenance of skin, joints, and mucosal surfaces, such as the gums. It is also important in the healing of wounds.
+    </string>
+    
+    <string name="scurvyMed1">
+        Scurvy is a Vitamin C defficiency. As such, the prescribed medications and treatment will involve your
+        Guinea Pig taking in Vitamin C medications and food.
+    </string>
+
+    <string name="scurvyMed2">
+        Pain relief medication will often be given to make your guinea pig more comfortable. Some cases of
+        Scurvy are very serious and can result in other damage to the body which needs additional treatment
+        and procedures, and in some cases if not treated soon enough Scurvy can be fatal.
+    </string>
+
+    <string name="scurvyPrevent">
+        The best way to prevent Scurvy is to ensure you feed your guinea pigs a balanced diet high in vitamin C.
+        Commercial guinea pig pellets contain vitamin C but should only be fed in small amounts. So the rest of
+        your guinea pigs vitamin C needs to come from fresh fruit and vegetables.
+    </string>
+
+    <string name="Abscess">
+        Infected swelling containing an accumulation of pus and bacteria can affect lymph nodes, skin, muscles,
+        teeth, bones, and internal organs. Since guinea pigs and other rodents and rabbits form thick pus that
+        does not drain or get reabsorbed easily, most abscesses in these animals require surgical removal
+        debridement, followed by treatment with antibiotics chosen based on culture of the bacteria growing in
+        the abscess.
+    </string>
+
+    <string name="abscessFirstAid">
+        The affected area is flushed with sterile saline and/or antimicrobial solutions, which are solutions that
+        kill or suppress the growth of the microorganisms.
+    </string>
+
+    <string name="abscessMed">
+        urgical removal of affected tissues or surgically opening the abscess are the most common treatments.
+    </string>
+
+    <string name="abscessPrevent">
+        Keep sharp objects away from your guinea pig and keep his living area clean and sanitized. Avoid contact
+        between guinea pigs and other animals that may result in puncture wounds from teeth or nails.
+    </string>
+
+    <string name="UTI">
+        Guinea pigs are very prone to development of urinary calculi stones or uroliths. These stones most often
+        form in the bladder but may also form in the kidneys or ureters tubes that drain the kidneys into the
+        bladder. Stones may become lodged in the ureter or the urethra the tube carrying urine from the
+        bladder to the outside, causing a life-threatening obstruction.
+    </string>
+    
+    <string name="UTIFirstAid">
+        Important to encourage water intake by using different forms of environmental enrichment by always
+        providing fresh and clean water and offer more than one bottle of water in their cage. Fruit or vegetable
+        infusions can be used such as cucumber or watermelon.
+    </string>
+
+    <string name="UTImed">
+        Veterinarians will prescribe antibiotics such as enrofloxacin, meloxicam for a couple of days or weeks,
+        depending on the severity. Antibiotics depend on the strain present in your guinea pig’s bladder or
+        urinary tract.
+    </string>
+
+    <string name="UTIprevent">
+        There are many things you can do to help prevent a guinea pig, especially a female which are more
+        vulnerable to this disease. Make sure the hairs around the genitals (anus and vagina or penis) are kept
+        short and cleaned.
+    </string>
+
+    <string name="bumblefoot">
+        Pododermatitis is a condition in which a guinea pig’s footpad becomes inflamed, develops sores, or becomes
+        overgrown. The appearance may be similar to callouses, or small tumors on the bottom of the foot. This
+        condition is commonly referred to as bumblefoot.
+        <br>
+            <br>
+                When bumblefoot is left untreated or is present in a very severe form, there are sometimes
+                complications in treatment and the infected leg may have to be amputated.
+            </br>
+        </br>
+    </string>
+    
+    <string name="bumblefootFirstAid">
+        An effective way to treat bumblefoot is to soak the affected area in a solution of warm water and Epsom
+        salts. You need to supervise your cavy at all times during this process, as the salt can get in its eye. Do
+        this two to three times a day.
+    </string>
+
+    <string name="bumblefootMed">
+        If the condition needs medical treatment beyond simple environmental changes, your veterinarian will
+        provide this. Your veterinarian will clean the wounds, clip the hair around the infected areas, and trim any
+        overgrown nails and dead tissue on the feet. Soaking the feet in antibiotic solutions may also prove to be
+        useful.
+
+        <br>
+            <br>
+                In severe cases, guinea pigs may need oral antibiotics and pain medications. You may also need to keep
+                the feet bandaged, with fresh dressings and topical antibiotics applied regularly to encourage healing.
+                Prolonged, untreated cases where pododermatitis has worsened to severe infection that
+                is not responding to immediate treatment may require amputation of the infected leg.
+            </br>
+        </br>
+    </string>
+
+    <string name="bumblefootPrevent">
+        Providing cages with smooth bottoms for your guinea pigs, keeping the floors clean and dry, and treating any
+        injuries immediately can help prevent pododermatitis from occurring. Because this is a relatively common
+        ailment, guinea pig owners are advised to check their pets` feet daily, including the length of the nails, and
+        watching the guinea pig`s weight and making dietary changes as needed.
+    </string>
+
 </resources>
+
+
+

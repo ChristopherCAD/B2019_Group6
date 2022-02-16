@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reptiles_fungal_infection"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/rAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:background="@color/secondaryColor"
+        android:fitsSystemWindows="true"
+        >
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/overGrownCollapse"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            android:background="@drawable/reptile_entamoeba_img">
+
+            <!-- You better change this ImageView my guy... -->
+
+            <ImageView
+                android:id="@+id/imgOvergrown"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|top|right"
+                android:layout_marginBottom="10dp"
+                app:layout_collapseMode="parallax"
+                android:src="@drawable/reptile_entamoeba_img"
+                >
+            </ImageView>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/OGTtoolBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:background="@drawable/body_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/Disease1DescTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Herpesvirus"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:id="@+id/descriptionOG"
+                android:layout_below="@+id/Disease1DescTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Herpesvirus"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Treatment for Herpesvirus"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:layout_below="@+id/Disease1DescTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Oral Medication"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_below="@+id/Disease1DescTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/herpesMed1"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_below="@+id/Disease1DescTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Antiviral Medicines"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_below="@+id/Disease1DescTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/herpesMed2"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to Prevent Herpesvirus"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:layout_below="@+id/Disease1DescTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/herpesPrevent"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+
+                >
+
+            </TextView>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

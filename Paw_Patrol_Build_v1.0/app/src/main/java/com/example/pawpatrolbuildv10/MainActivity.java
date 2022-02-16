@@ -63,32 +63,30 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.cardCat:
                 i = new Intent(this, pp_Catto.class);
-                showToast("Redirecting to the nyaa~ page...");
                 startActivity(i);
                 break;
             case R.id.cardDog:
                 i = new Intent(this, pp_Doggo.class);
-                showToast("Redirecting to the pupper page...");
                 startActivity(i);
                 break;
             case R.id.cardBird:
                 i = new Intent(this, pp_tweetMachine.class);
-                showToast("Redirecting to tweet machine page...");
                 startActivity(i);
                 break;
             case R.id.cardRabbit:
                 i = new Intent(this, pp_Rabbit.class);
-                showToast("Redirecting to celery devourer page...");
+                startActivity(i);
+                break;
+            case R.id.cardFrog:
+                i = new Intent(this, pp_Frog.class);
                 startActivity(i);
                 break;
             case R.id.cardHamster:
                 i = new Intent(this, pp_Hamster.class);
-                showToast("Redirecting to smol bean page...");
                 startActivity(i);
                 break;
             case R.id.cardGuinea:
                 i = new Intent(this, pp_Guinea_Pig.class);
-                showToast("Redirecting to Guinea 'page' :D...");
                 startActivity(i);
                 break;
             case R.id.cardLizard:

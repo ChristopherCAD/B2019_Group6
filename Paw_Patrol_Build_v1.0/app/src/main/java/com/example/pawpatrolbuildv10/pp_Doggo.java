@@ -50,10 +50,6 @@ public class pp_Doggo extends AppCompatActivity {
         ds17 = findViewById(R.id.DS17);
         ds18 = findViewById(R.id.DS18);
         ds19 = findViewById(R.id.DS19);
-        ds20 = findViewById(R.id.DS20);
-        ds21 = findViewById(R.id.DS21);
-
-        dog_Search = findViewById(R.id.doggoButtonSearch);
 
         dog_disease1 = findViewById(R.id.dogdisease1);
         dog_disease2 = findViewById(R.id.dogdisease2);
@@ -62,32 +58,78 @@ public class pp_Doggo extends AppCompatActivity {
         dog_disease5 = findViewById(R.id.dogdisease5);
         dog_disease6 = findViewById(R.id.dogdisease6);
         dog_disease7 = findViewById(R.id.dogdisease7);
-        dog_disease8 = findViewById(R.id.dogdisease8);
-        dog_disease9 = findViewById(R.id.dogdisease9);
-        dog_disease10 = findViewById(R.id.dogdisease10);
 
-        showToast("Click Symptoms 1 to 5 for a demo.");
-        showToast("Click Symptom 6 for a comparison.");
-
+        dog_Search = findViewById(R.id.doggoButtonSearch);
         dog_Search.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent d = new Intent(pp_Doggo.this, pp_dog_disease.class);
 
-                if (ds1.isChecked() && ds2.isChecked() && ds3.isChecked() && ds4.isChecked() && ds5.isChecked()) {
+                if (ds1.isChecked() && ds2.isChecked() && ds4.isChecked() && ds6.isChecked() && ds7.isChecked()) {
+
+                    // Canine Distemper
+
                     d.putExtra("ds1", ds1.isChecked());
                     d.putExtra("ds2", ds2.isChecked());
-                    d.putExtra("ds3", ds3.isChecked());
                     d.putExtra("ds4", ds4.isChecked());
-                    d.putExtra("ds5", ds5.isChecked());
+                    d.putExtra("ds6", ds6.isChecked());
+                    d.putExtra("ds7", ds7.isChecked());
                     startActivity(d);
 
-                } else if (ds6.isChecked()) {
-                    d.putExtra("ds6",ds6.isChecked());
-                    showToast("This section is under development.");
+                } else if (ds4.isChecked() && ds5.isChecked() && ds8.isChecked() && ds9.isChecked() && ds11.isChecked()) {
+
+                    // Canine Parvo + Leptospirosis
+                    d.putExtra("ds4",ds4.isChecked());
+                    d.putExtra("ds5",ds5.isChecked());
+                    d.putExtra("ds8",ds8.isChecked());
+                    d.putExtra("ds9",ds9.isChecked());
+                    d.putExtra("ds11",ds11.isChecked());
                     startActivity(d);
-                } else {
-                    showToast("This section is under development.");
+
+                } else if (ds9.isChecked() && ds10.isChecked() && ds12.isChecked() && ds13.isChecked()) {
+
+                    // Heatstroke
+
+                    d.putExtra("ds9", ds9.isChecked());
+                    d.putExtra("ds10", ds10.isChecked());
+                    d.putExtra("ds12", ds12.isChecked());
+                    d.putExtra("ds13", ds13.isChecked());
+                    startActivity(d);
+
+                } else if (ds5.isChecked() && ds14.isChecked() && ds15.isChecked() && ds17.isChecked()) {
+
+                    // Intestinal Parasites
+                    d.putExtra("ds5", ds5.isChecked());
+                    d.putExtra("ds14", ds14.isChecked());
+                    d.putExtra("ds15", ds15.isChecked());
+                    d.putExtra("ds17", ds17.isChecked());
+                    startActivity(d);
+
+                } else if (ds4.isChecked() && ds5.isChecked() && ds8.isChecked() && ds16.isChecked() && ds17.isChecked()) {
+
+                    // Leptospirosis
+                    d.putExtra("ds4", ds4.isChecked());
+                    d.putExtra("ds5", ds5.isChecked());
+                    d.putExtra("ds8", ds8.isChecked());
+                    d.putExtra("ds16", ds16.isChecked());
+                    d.putExtra("ds17", ds17.isChecked());
+                    startActivity(d);
+
+                } else if (ds3.isChecked() && ds11.isChecked() && ds18.isChecked()) {
+
+                    // Heartworms +
+                    d.putExtra("ds3", ds3.isChecked());
+                    d.putExtra("ds11", ds11.isChecked());
+                    d.putExtra("ds18", ds18.isChecked());
+                    startActivity(d);
+                } else if (ds3.isChecked() && ds8.isChecked() && ds11.isChecked() && ds19.isChecked()) {
+
+                    // Fungal Infections + Parvo and Leptospirosis
+                    d.putExtra("ds3", ds3.isChecked());
+                    d.putExtra("ds8", ds8.isChecked());
+                    d.putExtra("ds11", ds11.isChecked());
+                    d.putExtra("ds19", ds19.isChecked());
+                    startActivity(d);
                 }
 
             }

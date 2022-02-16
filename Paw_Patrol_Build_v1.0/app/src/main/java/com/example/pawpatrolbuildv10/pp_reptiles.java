@@ -41,7 +41,6 @@ public class pp_reptiles extends AppCompatActivity {
         ls12 = findViewById(R.id.LS12);
         ls13 = findViewById(R.id.LS13);
         ls14 = findViewById(R.id.LS14);
-        ls15 = findViewById(R.id.LS15);
 
         lizard_Search = findViewById(R.id.lizardButtonSearch);
 
@@ -52,9 +51,6 @@ public class pp_reptiles extends AppCompatActivity {
         reptile_disease5 = findViewById(R.id.reptiledisease5);
         reptile_disease6 = findViewById(R.id.reptiledisease6);
         reptile_disease7 = findViewById(R.id.reptiledisease7);
-        reptile_disease8 = findViewById(R.id.reptiledisease8);
-        reptile_disease9 = findViewById(R.id.reptiledisease9);
-        reptile_disease10 = findViewById(R.id.reptiledisease10);
 
         showToast("Click Symptoms 1 to 5 for a demo.");
         showToast("Click Symptom 6 for a comparison.");
@@ -64,19 +60,63 @@ public class pp_reptiles extends AppCompatActivity {
             public void onClick(View v) {
                 Intent l = new Intent(pp_reptiles.this, pp_reptile_disease.class);
 
-                if (ls1.isChecked() && ls2.isChecked() && ls3.isChecked() && ls4.isChecked() && ls5.isChecked()) {
+                if (ls1.isChecked() && ls2.isChecked() && ls3.isChecked()) {
+
+                    // Ear Infections
+
                     l.putExtra("ls1", ls1.isChecked());
                     l.putExtra("ls2", ls2.isChecked());
                     l.putExtra("ls3", ls3.isChecked());
-                    l.putExtra("ls4", ls4.isChecked());
-                    l.putExtra("ls5", ls5.isChecked());
                     startActivity(l);
 
-                } else if (ls6.isChecked()) {
-                    l.putExtra("ls6",ls6.isChecked());
+                } else if (ls3.isChecked() && ls4.isChecked() && ls5.isChecked() && ls6.isChecked() && ls7.isChecked()) {
+
+                    // Amebiasis
+
+                    l.putExtra("ls3", ls3.isChecked());
+                    l.putExtra("ls4", ls4.isChecked());
+                    l.putExtra("ls5", ls5.isChecked());
+                    l.putExtra("ls6", ls6.isChecked());
+                    l.putExtra("ls7", ls7.isChecked());
                     startActivity(l);
-                } else {
-                    showToast("This section is under development.");
+
+                } else if (ls8.isChecked() && ls9.isChecked() && ls13.isChecked()) {
+
+                    // Mouth Rot + Herpesvirus
+
+                    l.putExtra("ls8", ls8.isChecked());
+                    l.putExtra("ls9", ls9.isChecked());
+                    l.putExtra("ls13", ls13.isChecked());
+                    startActivity(l);
+
+                } else if (ls10.isChecked() && ls11.isChecked() && ls12.isChecked()) {
+
+                    // Metabolic Bone Disease
+
+                    l.putExtra("ls10", ls10.isChecked());
+                    l.putExtra("ls11", ls11.isChecked());
+                    l.putExtra("ls12", ls12.isChecked());
+                    startActivity(l);
+
+                } else if (ls8.isChecked() && ls9.isChecked() && ls13.isChecked() && ls14.isChecked()) {
+
+                    // HerpesVirus + Mouth Rot
+
+                    l.putExtra("ls8", ls8.isChecked());
+                    l.putExtra("ls9", ls9.isChecked());
+                    l.putExtra("ls13", ls13.isChecked());
+                    l.putExtra("ls14", ls14.isChecked());
+                    startActivity(l);
+
+                } else if (ls3.isChecked() && ls6.isChecked() && ls14.isChecked()) {
+
+                    // Fungal Infections
+
+                    l.putExtra("ls3", ls3.isChecked());
+                    l.putExtra("ls6", ls6.isChecked());
+                    l.putExtra("ls14", ls14.isChecked());
+                    startActivity(l);
+
                 }
             }
         });

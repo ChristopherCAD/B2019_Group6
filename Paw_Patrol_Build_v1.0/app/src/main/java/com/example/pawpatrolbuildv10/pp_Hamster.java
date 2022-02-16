@@ -53,12 +53,7 @@ public class pp_Hamster extends AppCompatActivity {
         hamster_disease5 = findViewById(R.id.hamsterdisease5);
         hamster_disease6 = findViewById(R.id.hamsterdisease6);
         hamster_disease7 = findViewById(R.id.hamsterdisease7);
-        hamster_disease8 = findViewById(R.id.hamsterdisease8);
-        hamster_disease9 = findViewById(R.id.hamsterdisease9);
-        hamster_disease10 = findViewById(R.id.hamsterdisease10);
 
-        showToast("Click Symptoms 1 to 5 for a demo.");
-        showToast("Click Symptom 6 for a comparison.");
 
         hamster_Search.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,6 +62,9 @@ public class pp_Hamster extends AppCompatActivity {
 
 
                 if (hs1.isChecked() && hs2.isChecked() && hs3.isChecked() && hs4.isChecked() && hs5.isChecked()) {
+
+                    // Wet Tails + Tapeworms
+
                     h.putExtra("hs1", hs1.isChecked());
                     h.putExtra("hs2", hs2.isChecked());
                     h.putExtra("hs3", hs3.isChecked());
@@ -74,12 +72,56 @@ public class pp_Hamster extends AppCompatActivity {
                     h.putExtra("hs5", hs5.isChecked());
                     startActivity(h);
 
-                } else if (hs6.isChecked()) {
-                    h.putExtra("ds6",hs6.isChecked());
-                    showToast("This section is under development.");
+                } else if (hs7.isChecked() && hs8.isChecked() && hs9.isChecked()) {
+
+                    // Atrial Thrombosis
+
+                    h.putExtra("hs7", hs7.isChecked());
+                    h.putExtra("hs8", hs8.isChecked());
+                    h.putExtra("hs9", hs9.isChecked());
                     startActivity(h);
-                } else {
-                    showToast("This section is under development.");
+
+                } else if (hs2.isChecked() && hs6.isChecked() && hs10.isChecked() && hs11.isChecked() && hs12.isChecked()) {
+
+                    // Tyzzer's Disease
+
+                    h.putExtra("hs2", hs2.isChecked());
+                    h.putExtra("hs6", hs6.isChecked());
+                    h.putExtra("hs10", hs10.isChecked());
+                    h.putExtra("hs11", hs11.isChecked());
+                    h.putExtra("hs12", hs12.isChecked());
+                    startActivity(h);
+
+                } else if (hs1.isChecked() && hs3.isChecked() && hs12.isChecked() && hs13.isChecked()) {
+
+                    // Salmonella
+
+                    h.putExtra("hs1", hs1.isChecked());
+                    h.putExtra("hs3", hs3.isChecked());
+                    h.putExtra("hs12", hs12.isChecked());
+                    h.putExtra("hs13", hs13.isChecked());
+                    startActivity(h);
+
+                } else if (hs1.isChecked() && hs2.isChecked() && hs5.isChecked() && hs6.isChecked() && hs13.isChecked()) {
+
+                    // Tapeworms + Wet Tails
+
+                    h.putExtra("hs1", hs1.isChecked());
+                    h.putExtra("hs2", hs2.isChecked());
+                    h.putExtra("hs5", hs5.isChecked());
+                    h.putExtra("hs6", hs6.isChecked());
+                    h.putExtra("hs13", hs13.isChecked());
+                    startActivity(h);
+
+                } else if (hs7.isChecked() && hs14.isChecked() && hs15.isChecked()) {
+
+                    // Pneumonia
+
+                    h.putExtra("hs7", hs7.isChecked());
+                    h.putExtra("hs14", hs14.isChecked());
+                    h.putExtra("hs15", hs15.isChecked());
+                    startActivity(h);
+
                 }
             }
         });

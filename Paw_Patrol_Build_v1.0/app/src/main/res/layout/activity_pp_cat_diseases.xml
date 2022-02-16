@@ -78,8 +78,6 @@
 
                 </LinearLayout>
 
-
-
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -120,8 +118,6 @@
 
 
                 </LinearLayout>
-
-
 
             </androidx.cardview.widget.CardView>
 
@@ -164,8 +160,6 @@
 
                 </LinearLayout>
 
-
-
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -204,10 +198,7 @@
 
                     </TextView>
 
-
                 </LinearLayout>
-
-
 
             </androidx.cardview.widget.CardView>
 
@@ -304,7 +295,7 @@
                 android:layout_gravity="fill"
                 android:layout_columnWeight="0"
                 android:layout_rowWeight="0"
-                android:layout_row="6"
+                android:layout_row="7"
                 android:layout_column="0"
                 app:cardCornerRadius="8dp"
                 android:elevation="8dp"
@@ -323,49 +314,6 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Cat Scratch Disease"
-                        android:textSize="25dp"
-                        android:fontFamily="sans-serif-condensed-light"
-                        android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:padding="2dp"
-                        android:layout_gravity="fill_horizontal">
-
-                    </TextView>
-
-
-                </LinearLayout>
-
-
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/catDisease8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="fill"
-                android:layout_columnWeight="0"
-                android:layout_rowWeight="0"
-                android:layout_row="7"
-                android:layout_column="0"
-                app:cardCornerRadius="8dp"
-                android:elevation="8dp"
-                app:cardUseCompatPadding="true"
-                app:cardBackgroundColor="@color/white"
-
-                >
-
-                <LinearLayout
-                    android:id="@+id/catdisease8"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="10dp"
-                    android:gravity="center">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
                         android:text="Under Research"
                         android:textSize="25dp"
                         android:fontFamily="sans-serif-condensed-light"
@@ -376,101 +324,9 @@
 
                     </TextView>
 
-
                 </LinearLayout>
 
-
-
             </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/catDisease9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="fill"
-                android:layout_columnWeight="0"
-                android:layout_rowWeight="0"
-                android:layout_row="8"
-                android:layout_column="0"
-                app:cardCornerRadius="8dp"
-                android:elevation="8dp"
-                app:cardUseCompatPadding="true"
-                app:cardBackgroundColor="@color/white"
-
-                >
-
-                <LinearLayout
-                    android:id="@+id/catdisease9"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="10dp"
-                    android:gravity="center">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Under Research"
-                        android:textSize="25dp"
-                        android:fontFamily="sans-serif-condensed-light"
-                        android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:padding="2dp"
-                        android:layout_gravity="fill_horizontal">
-
-                    </TextView>
-
-
-                </LinearLayout>
-
-
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/catDisease10"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="fill"
-                android:layout_columnWeight="0"
-                android:layout_rowWeight="0"
-                android:layout_row="9"
-                android:layout_column="0"
-                app:cardCornerRadius="8dp"
-                android:elevation="8dp"
-                app:cardUseCompatPadding="true"
-                app:cardBackgroundColor="@color/white"
-
-                >
-
-                <LinearLayout
-                    android:id="@+id/catdisease10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="10dp"
-                    android:gravity="center">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Under Research"
-                        android:textSize="25dp"
-                        android:fontFamily="sans-serif-condensed-light"
-                        android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:padding="2dp"
-                        android:layout_gravity="fill_horizontal">
-
-                    </TextView>
-
-
-                </LinearLayout>
-
-
-
-            </androidx.cardview.widget.CardView>
-
-
-
 
         </GridLayout>
 

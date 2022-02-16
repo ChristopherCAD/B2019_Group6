@@ -28,6 +28,7 @@ public class pp_frog_disease extends AppCompatActivity implements View.OnClickLi
         frogDisease3 = findViewById(R.id.frogDisease3);
         frogDisease4 = findViewById(R.id.frogDisease4);
         frogDisease5 = findViewById(R.id.frogDisease5);
+        frogDisease6 = findViewById(R.id.frogDisease6);
 
         // Click Listener Block
 
@@ -36,6 +37,7 @@ public class pp_frog_disease extends AppCompatActivity implements View.OnClickLi
         frogDisease3.setOnClickListener(this);
         frogDisease4.setOnClickListener(this);
         frogDisease5.setOnClickListener(this);
+        frogDisease6.setOnClickListener(this);
 
         // Diseases Block
 
@@ -52,18 +54,52 @@ public class pp_frog_disease extends AppCompatActivity implements View.OnClickLi
         Boolean check3 = getIntent().getExtras().getBoolean("fs3");
         Boolean check4 = getIntent().getExtras().getBoolean("fs4");
         Boolean check5 = getIntent().getExtras().getBoolean("fs5");
+        Boolean check6 = getIntent().getExtras().getBoolean("fs6");
+        Boolean check7 = getIntent().getExtras().getBoolean("fs7");
+        Boolean check8 = getIntent().getExtras().getBoolean("fs8");
+        Boolean check9 = getIntent().getExtras().getBoolean("fs9");
+        Boolean check10 = getIntent().getExtras().getBoolean("fs10");
+        Boolean check11 = getIntent().getExtras().getBoolean("fs11");
+        Boolean check12 = getIntent().getExtras().getBoolean("fs12");
+        Boolean check13 = getIntent().getExtras().getBoolean("fs13");
+        Boolean check14 = getIntent().getExtras().getBoolean("fs14");
+        Boolean check15 = getIntent().getExtras().getBoolean("fs15");
 
 
         if (check1 && check2 && check3 && check4) {
+
+            // Chytridiomycosis
+
             frogdisease2.setVisibility(View.GONE);
             frogdisease3.setVisibility(View.GONE);
             frogdisease4.setVisibility(View.GONE);
             frogdisease5.setVisibility(View.GONE);
-            showToast("Conditions Met");
-        }
-        if (check5) {
+
+        } else if (check5 && check6 && check7 && check8 && check9) {
+
+            // Red Leg Syndrome + Mycobacteroisis
+
             frogdisease1.setVisibility(View.GONE);
-            showToast("Conditions are met.");
+            frogdisease3.setVisibility(View.GONE);
+            frogdisease5.setVisibility(View.GONE);
+
+        } else if (check6 && check10 && check11 && check12) {
+
+            // Obesity
+
+            frogdisease1.setVisibility(View.GONE);
+            frogdisease2.setVisibility(View.GONE);
+            frogdisease4.setVisibility(View.GONE);
+            frogdisease5.setVisibility(View.GONE);
+
+        } else if (check7 && check8 && check13 && check14 && check15) {
+
+            // Mycobacteroisis + Red Leg Syndrome
+
+            frogdisease1.setVisibility(View.GONE);
+            frogdisease3.setVisibility(View.GONE);
+            frogdisease5.setVisibility(View.GONE);
+
         }
 
     }
@@ -76,6 +112,18 @@ public class pp_frog_disease extends AppCompatActivity implements View.OnClickLi
         switch (v.getId()) {
             case R.id.frogDisease1:
                 croak = new Intent(this, frog_chytridiomycosis.class);
+                startActivity(croak);
+                break;
+            case R.id.frogDisease2:
+                croak = new Intent(this, frog_redLegSyndrome.class);
+                startActivity(croak);
+                break;
+            case R.id.frogDisease3:
+                croak = new Intent(this, frog_obesity.class);
+                startActivity(croak);
+                break;
+            case R.id.frogDisease4:
+                croak = new Intent(this, frog_mycobacteriosis.class);
                 startActivity(croak);
                 break;
             default:

@@ -49,12 +49,6 @@ public class pp_Guinea_Pig extends AppCompatActivity {
         gs17 = findViewById(R.id.GS17);
         gs18 = findViewById(R.id.GS18);
         gs19 = findViewById(R.id.GS19);
-        gs20 = findViewById(R.id.GS20);
-        gs21 = findViewById(R.id.GS21);
-        gs22 = findViewById(R.id.GS22);
-        gs23 = findViewById(R.id.GS23);
-        gs24 = findViewById(R.id.GS24);
-        gs25 = findViewById(R.id.GS25);
 
         guinea_Search = findViewById(R.id.guineaButtonSearch);
 
@@ -65,12 +59,6 @@ public class pp_Guinea_Pig extends AppCompatActivity {
         guinea_disease5 = findViewById(R.id.guineadisease5);
         guinea_disease6 = findViewById(R.id.guineadisease6);
         guinea_disease7 = findViewById(R.id.guineadisease7);
-        guinea_disease8 = findViewById(R.id.guineadisease8);
-        guinea_disease9 = findViewById(R.id.guineadisease9);
-        guinea_disease10 = findViewById(R.id.guineadisease10);
-
-        showToast("Click Symptoms 1 to 5 for a demo.");
-        showToast("Click Symptom 6 for a comparison.");
 
         guinea_Search.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -79,6 +67,9 @@ public class pp_Guinea_Pig extends AppCompatActivity {
 
 
                 if (gs1.isChecked() && gs2.isChecked() && gs3.isChecked() && gs4.isChecked() && gs5.isChecked()) {
+
+                    // Respiratory Infections
+
                     g.putExtra("gs1", gs1.isChecked());
                     g.putExtra("gs2", gs2.isChecked());
                     g.putExtra("gs3", gs3.isChecked());
@@ -86,11 +77,57 @@ public class pp_Guinea_Pig extends AppCompatActivity {
                     g.putExtra("gs5", gs5.isChecked());
                     startActivity(g);
 
-                } else if (gs6.isChecked()) {
-                    g.putExtra("gs6",gs6.isChecked());
+                } else if (gs2.isChecked() && gs6.isChecked() && gs7.isChecked() && gs8.isChecked() && gs9.isChecked()) {
+
+                    // Diarrhea
+
+                    g.putExtra("gs2", gs2.isChecked());
+                    g.putExtra("gs6", gs6.isChecked());
+                    g.putExtra("gs7", gs7.isChecked());
+                    g.putExtra("gs8", gs8.isChecked());
+                    g.putExtra("gs9", gs9.isChecked());
                     startActivity(g);
-                } else {
-                    showToast("This section is under development.");
+
+                } else if (gs6.isChecked() && gs11.isChecked() && gs12.isChecked() && gs13.isChecked() && gs14.isChecked()) {
+
+                    // Scurvy (Vitamin C defficiency)
+
+                    g.putExtra("gs6", gs6.isChecked());
+                    g.putExtra("gs11", gs11.isChecked());
+                    g.putExtra("gs12", gs12.isChecked());
+                    g.putExtra("gs13", gs13.isChecked());
+                    g.putExtra("gs14", gs14.isChecked());
+                    startActivity(g);
+
+                } else if (gs6.isChecked() && gs15.isChecked() && gs16.isChecked() && gs17.isChecked() && gs18.isChecked()) {
+
+                    // Abscess
+
+                    g.putExtra("gs6", gs6.isChecked());
+                    g.putExtra("gs15", gs15.isChecked());
+                    g.putExtra("gs16", gs16.isChecked());
+                    g.putExtra("gs17", gs17.isChecked());
+                    g.putExtra("gs18", gs18.isChecked());
+                    startActivity(g);
+
+                } else if (gs6.isChecked() && gs7.isChecked() && gs8.isChecked()) {
+
+                    // Urinary Problems
+
+                    g.putExtra("gs6", gs6.isChecked());
+                    g.putExtra("gs7", gs7.isChecked());
+                    g.putExtra("gs8", gs8.isChecked());
+                    startActivity(g);
+
+                } else if (gs6.isChecked() && gs14.isChecked() && gs15.isChecked() && gs19.isChecked()) {
+
+                    // Bumblefoot
+
+                    g.putExtra("gs6", gs6.isChecked());
+                    g.putExtra("gs14", gs14.isChecked());
+                    g.putExtra("gs15", gs15.isChecked());
+                    g.putExtra("gs19", gs19.isChecked());
+                    startActivity(g);
                 }
             }
         });

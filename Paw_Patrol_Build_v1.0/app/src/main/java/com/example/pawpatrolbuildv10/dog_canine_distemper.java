@@ -6,9 +6,14 @@ import android.os.Bundle;
 
 public class dog_canine_distemper extends AppCompatActivity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dog_canine_distemper);
+
+
+
     }
 }

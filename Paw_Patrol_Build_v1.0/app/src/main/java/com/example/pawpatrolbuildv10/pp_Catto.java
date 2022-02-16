@@ -15,6 +15,8 @@ import android.widget.Toast;
 
 public class pp_Catto extends AppCompatActivity{
 
+    // Original Code ._. GitHub Directory
+
     Button cat_Search;
     CheckBox cs1, cs2, cs3, cs4, cs5;
     CheckBox cs6, cs7, cs8, cs9, cs10;
@@ -49,9 +51,6 @@ public class pp_Catto extends AppCompatActivity{
         cs18 = findViewById(R.id.CS18);
         cs19 = findViewById(R.id.CS19);
         cs20 = findViewById(R.id.CS20);
-        cs21 = findViewById(R.id.CS21);
-        cs22 = findViewById(R.id.CS22);
-        cs23 = findViewById(R.id.CS23);
         cat_Search = findViewById(R.id.catButtonSearch);
 
         cat_disease1 = findViewById(R.id.catdisease1);
@@ -66,9 +65,13 @@ public class pp_Catto extends AppCompatActivity{
             @Override
             public void onClick(View v) {
                 Intent c = new Intent(pp_Catto.this, pp_cat_diseases.class);
-
+                Intent neko = new Intent(pp_Catto.this, pp_cat_diseases.class);
 
                 if (cs1.isChecked() && cs2.isChecked () && cs3.isChecked() && cs4.isChecked() && cs5.isChecked()) {
+
+                    // Cancer Symptoms + other related Illness
+                    // If there are three or more similar symptoms
+                    // cout >> Related Disease
 
                     c.putExtra("cs1", cs1.isChecked());
                     c.putExtra("cs2", cs2.isChecked());
@@ -76,13 +79,84 @@ public class pp_Catto extends AppCompatActivity{
                     c.putExtra("cs4", cs4.isChecked());
                     c.putExtra("cs5", cs5.isChecked());
                     startActivity(c);
-                } else if (cs6.isChecked()) {
-                    c.putExtra("cs6", cs6.isChecked());
-                    startActivity(c);
-                } else {
-                    showToast("This section is under development.");
-                }
 
+                } else if (cs3.isChecked() && cs4.isChecked() && cs10.isChecked() && cs11.isChecked() && cs12.isChecked()) {
+
+                    // Kidney Disease Symptoms + Related Illness
+
+                    c.putExtra("cs3", cs3.isChecked());
+                    c.putExtra("cs4", cs4.isChecked());
+                    c.putExtra("cs10", cs10.isChecked());
+                    c.putExtra("cs11", cs11.isChecked());
+                    c.putExtra("cs12", cs12.isChecked());
+                    startActivity(c);
+
+                } else if (cs13.isChecked() && cs14.isChecked() && cs21.isChecked() && cs22.isChecked()){
+
+                    // FIV disease
+
+                    c.putExtra("cs13", cs13.isChecked());
+                    c.putExtra("cs14", cs14.isChecked());
+                    c.putExtra("cs21", cs21.isChecked());
+                    c.putExtra("cs22", cs22.isChecked());
+                    startActivity(c);
+
+                } else if (cs1.isChecked() && cs6.isChecked() && cs13.isChecked() && cs16.isChecked() && cs21.isChecked()) {
+
+                    // FELV + other Diseases
+
+                    c.putExtra("cs1", cs1.isChecked());
+                    c.putExtra("cs6", cs6.isChecked());
+                    c.putExtra("cs13", cs13.isChecked());
+                    c.putExtra("cs16", cs16.isChecked());
+                    c.putExtra("cs21", cs21.isChecked());
+                    startActivity(c);
+
+                } else if (cs17.isChecked() && cs13.isChecked() && cs7.isChecked() && cs21.isChecked() && cs6.isChecked()) {
+
+                    // Pancreatitis +
+
+                    c.putExtra("cs6", cs6.isChecked());
+                    c.putExtra("cs7", cs7.isChecked());
+                    c.putExtra("cs13", cs13.isChecked());
+                    c.putExtra("cs17", cs17.isChecked());
+                    c.putExtra("cs21", cs21.isChecked());
+                    startActivity(c);
+
+                } else if (cs1.isChecked() && cs18.isChecked() && cs19.isChecked() && cs20.isChecked()) {
+
+                    // Hyperthyroidism
+
+                    c.putExtra("cs1", cs1.isChecked());
+                    c.putExtra("cs18", cs18.isChecked());
+                    c.putExtra("cs19", cs19.isChecked());
+                    c.putExtra("cs20", cs20.isChecked());
+                    startActivity(c);
+                } else if (cs1.isChecked() || cs2.isChecked() || cs3.isChecked() || cs4.isChecked() || cs5.isChecked() || cs6.isChecked() || cs7.isChecked() || cs8.isChecked() || cs9.isChecked() || cs10.isChecked()) {
+                    neko.putExtra("cs1", cs1.isChecked());
+                    neko.putExtra("cs2", cs2.isChecked());
+                    neko.putExtra("cs3", cs3.isChecked());
+                    neko.putExtra("cs4", cs4.isChecked());
+                    neko.putExtra("cs5", cs5.isChecked());
+                    neko.putExtra("cs6", cs6.isChecked());
+                    neko.putExtra("cs7", cs7.isChecked());
+                    neko.putExtra("cs8", cs8.isChecked());
+                    neko.putExtra("cs9", cs9.isChecked());
+                    neko.putExtra("cs10", cs10.isChecked());
+                    startActivity(neko);
+                } else if (cs11.isChecked() || cs12.isChecked() || cs13.isChecked() || cs14.isChecked() || cs15.isChecked() || cs16.isChecked() || cs17.isChecked() || cs18.isChecked() || cs19.isChecked() || cs20.isChecked()){
+                    neko.putExtra("cs11", cs11.isChecked());
+                    neko.putExtra("cs12", cs12.isChecked());
+                    neko.putExtra("cs13", cs13.isChecked());
+                    neko.putExtra("cs14", cs14.isChecked());
+                    neko.putExtra("cs15", cs15.isChecked());
+                    neko.putExtra("cs16", cs16.isChecked());
+                    neko.putExtra("cs17", cs17.isChecked());
+                    neko.putExtra("cs18", cs18.isChecked());
+                    neko.putExtra("cs19", cs19.isChecked());
+                    neko.putExtra("cs20", cs20.isChecked());
+                    startActivity(neko);
+                }
             }
         });
 

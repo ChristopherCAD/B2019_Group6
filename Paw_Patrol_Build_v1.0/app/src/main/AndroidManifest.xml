@@ -10,6 +10,60 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PawPatrolBuildV10">
         <activity
+            android:name=".guinea_diarrhea"
+            android:exported="false" />
+        <activity
+            android:name=".guinea_scurvy"
+            android:exported="false" />
+        <activity
+            android:name=".guinea_abscess"
+            android:exported="false" />
+        <activity
+            android:name=".guinea_UTI"
+            android:exported="false" />
+        <activity
+            android:name=".guinea_bumblefoot"
+            android:exported="false" />
+        <activity
+            android:name=".guinea_respiratory_infections"
+            android:exported="false" />
+        <activity
+            android:name=".hamster_pneumonia"
+            android:exported="false" />
+        <activity
+            android:name=".hamster_tape_worms"
+            android:exported="false" />
+        <activity
+            android:name=".hamster_salmonella"
+            android:exported="false" />
+        <activity
+            android:name=".hamster_tyzzer_disease"
+            android:exported="false" />
+        <activity
+            android:name=".hamster_thrombosis"
+            android:exported="false" />
+        <activity
+            android:name=".hamster_wetTail"
+            android:exported="false" />
+        <activity
+            android:name=".reptiles_fungal_infection"
+            android:exported="false" />
+        <activity
+            android:name=".reptiles_herpesvirus"
+            android:exported="false" />
+        <activity
+            android:name=".reptiles_boneDisease"
+            android:exported="false" />
+        <activity
+            android:name=".reptile_mouthRot"
+            android:exported="false" />
+        <activity
+            android:name=".reptiles_antemoeba"
+            android:exported="false" />
+        <activity
+            android:name=".reptiles_earInfections"
+            android:exported="false" />
+        <activity
             android:name=".frog_mycobacteriosis"
             android:exported="false" />
         <activity

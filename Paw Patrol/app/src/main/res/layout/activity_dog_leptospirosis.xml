@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dog_leptospirosis"
+    android:orientation="vertical"
+    android:background="@drawable/body_radius1">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:id="@+id/cAppbar"
+        android:fitsSystemWindows="true"
+        android:background="@color/transparent"
+        >
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapse"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            android:background="@drawable/dog_leptospirosis_img"
+            >
+
+            <ImageView
+                android:id="@+id/catCancer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|top|right"
+                android:layout_marginBottom="10dp"
+                app:layout_collapseMode="parallax"
+                >
+            </ImageView>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/ToolBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:background="@drawable/body_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <com.google.android.material.chip.ChipGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp">
+
+                <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vomiting"
+                    app:chipBackgroundColor="@color/chipColor"
+                    app:chipCornerRadius="5dp"/>
+
+                <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fever"
+                    app:chipBackgroundColor="@color/chipColor"
+                    app:chipCornerRadius="5dp"/>
+
+                <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Weight Loss"
+                    app:chipBackgroundColor="@color/chipColor"
+                    app:chipCornerRadius="5dp"/>
+
+                <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lethargy"
+                    app:chipBackgroundColor="@color/chipColor"
+                    app:chipCornerRadius="5dp"/>
+
+                <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Muscle Weakness"
+                    app:chipBackgroundColor="@color/chipColor"
+                    app:chipCornerRadius="5dp"/>
+
+                <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Abdominal Pain"
+                    app:chipBackgroundColor="@color/chipColor"
+                    app:chipCornerRadius="5dp"/>
+
+            </com.google.android.material.chip.ChipGroup>
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Leptospirosis"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_below="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/leptospirosis"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+                >
+            </TextView>
+
+
+
+            <TextView
+                android:id="@+id/suggested_Medication"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Suggested Medication for Leptospirosis"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:layout_below="@+id/First_Aid_Section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Penicillin / Penicillin sodium"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_below="@+id/First_Aid_Section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Aminopenicillin / Ampicillin"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_below="@+id/First_Aid_Section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Antibiotics"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/antibiotics"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/prevention"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to prevent your dog from getting leptospirosis"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Leptospirosis Vaccine"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/leptosPrevention"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Keep them away from drinking poodle"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/leptosPrevention2"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical|end"
+                >
+            </TextView>
+
+            <Button
+                android:id="@+id/vetFindMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Vet Near Me" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

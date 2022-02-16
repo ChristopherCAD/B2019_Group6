@@ -54,19 +54,50 @@ public class pp_Frog extends AppCompatActivity {
                 Intent f = new Intent(pp_Frog.this, pp_frog_disease.class);
 
                 if (fs1.isChecked() && fs2.isChecked() && fs3.isChecked() && fs4.isChecked()) {
+
+                    // Chytridiomycosis
+
                     f.putExtra("fs1", fs1.isChecked());
                     f.putExtra("fs2", fs2.isChecked());
                     f.putExtra("fs3", fs3.isChecked());
                     f.putExtra("fs4", fs4.isChecked());
                     startActivity(f);
-                    //rabbit_symptom1.setBackgroundColor(Color.parseColor("#FF0000"));
-                    showToast("Searching for symptom-related diseases...");
 
-                } else if (fs5.isChecked()){
+                } else if (fs5.isChecked() && fs6.isChecked() && fs7.isChecked() && fs8.isChecked() && fs9.isChecked()) {
+
+                    // Red Leg Syndrome + Mycobacteroisis
+
                     f.putExtra("fs5", fs5.isChecked());
+                    f.putExtra("fs6", fs6.isChecked());
+                    f.putExtra("fs7", fs7.isChecked());
+                    f.putExtra("fs8", fs8.isChecked());
+                    f.putExtra("fs9", fs9.isChecked());
                     startActivity(f);
-                } else {
-                    showToast("No condition here yet.");
+
+
+                } else if (fs6.isChecked() && fs10.isChecked() && fs11.isChecked() && fs12.isChecked()) {
+
+                    // Obesity
+
+                    f.putExtra("fs6", fs6.isChecked());
+                    f.putExtra("fs10", fs10.isChecked());
+                    f.putExtra("fs11", fs11.isChecked());
+                    f.putExtra("fs12", fs12.isChecked());
+                    startActivity(f);
+
+
+                } else if (fs7.isChecked() && fs8.isChecked() && fs13.isChecked() && fs14.isChecked() && fs15.isChecked()) {
+
+                    // Mycobacteriosis + Red Leg Syndrome
+
+                    f.putExtra("fs7", fs7.isChecked());
+                    f.putExtra("fs8", fs8.isChecked());
+                    f.putExtra("fs13", fs13.isChecked());
+                    f.putExtra("fs14", fs14.isChecked());
+                    f.putExtra("fs15", fs15.isChecked());
+                    startActivity(f);
+
+
                 }
 
             }

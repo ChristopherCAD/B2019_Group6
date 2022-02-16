@@ -30,9 +30,6 @@ public class pp_dog_disease extends AppCompatActivity implements View.OnClickLis
         dogDisease5 = findViewById(R.id.dogDisease5);
         dogDisease6 = findViewById(R.id.dogDisease6);
         dogDisease7 = findViewById(R.id.dogDisease7);
-        dogDisease8 = findViewById(R.id.dogDisease8);
-        dogDisease9 = findViewById(R.id.dogDisease9);
-        dogDisease10 = findViewById(R.id.dogDisease10);
 
 
         // Click Listener Block
@@ -43,10 +40,7 @@ public class pp_dog_disease extends AppCompatActivity implements View.OnClickLis
         dogDisease4.setOnClickListener(this);
         dogDisease5.setOnClickListener(this);
         dogDisease6.setOnClickListener(this);
-        dogDisease7.setOnClickListener(this);;
-        dogDisease8.setOnClickListener(this);
-        dogDisease9.setOnClickListener(this);
-        dogDisease10.setOnClickListener(this);
+        dogDisease7.setOnClickListener(this);
 
 
 
@@ -59,34 +53,97 @@ public class pp_dog_disease extends AppCompatActivity implements View.OnClickLis
         dog_disease5 = findViewById(R.id.dogdisease5);
         dog_disease6 = findViewById(R.id.dogdisease6);
         dog_disease7 = findViewById(R.id.dogdisease7);
-        dog_disease8 = findViewById(R.id.dogdisease8);
-        dog_disease9 = findViewById(R.id.dogdisease9);
-        dog_disease10 = findViewById(R.id.dogdisease10);
 
 
         // Intent Block
 
-        Boolean check1 = getIntent().getExtras().getBoolean("ds1");
-        Boolean check2 = getIntent().getExtras().getBoolean("ds2");
-        Boolean check3 = getIntent().getExtras().getBoolean("ds3");
-        Boolean check4 = getIntent().getExtras().getBoolean("ds4");
-        Boolean check5 = getIntent().getExtras().getBoolean("ds5");
-        Boolean check6 = getIntent().getExtras().getBoolean("ds6");
-        Boolean check7 = getIntent().getExtras().getBoolean("ds7");
-        Boolean check8 = getIntent().getExtras().getBoolean("ds8");
-        Boolean check9 = getIntent().getExtras().getBoolean("ds9");
-        Boolean check10 = getIntent().getExtras().getBoolean("ds10");
+        Boolean woof1 = getIntent().getExtras().getBoolean("ds1");
+        Boolean woof2 = getIntent().getExtras().getBoolean("ds2");
+        Boolean woof3 = getIntent().getExtras().getBoolean("ds3");
+        Boolean woof4 = getIntent().getExtras().getBoolean("ds4");
+        Boolean woof5 = getIntent().getExtras().getBoolean("ds5");
+        Boolean woof6 = getIntent().getExtras().getBoolean("ds6");
+        Boolean woof7 = getIntent().getExtras().getBoolean("ds7");
+        Boolean woof8 = getIntent().getExtras().getBoolean("ds8");
+        Boolean woof9 = getIntent().getExtras().getBoolean("ds9");
+        Boolean woof10 = getIntent().getExtras().getBoolean("ds10");
+        Boolean woof11 = getIntent().getExtras().getBoolean("ds11");
+        Boolean woof12 = getIntent().getExtras().getBoolean("ds12");
+        Boolean woof13 = getIntent().getExtras().getBoolean("ds13");
+        Boolean woof14 = getIntent().getExtras().getBoolean("ds14");
+        Boolean woof15 = getIntent().getExtras().getBoolean("ds15");
+        Boolean woof16 = getIntent().getExtras().getBoolean("ds16");
+        Boolean woof17 = getIntent().getExtras().getBoolean("ds17");
+        Boolean woof18 = getIntent().getExtras().getBoolean("ds18");
+        Boolean woof19 = getIntent().getExtras().getBoolean("ds19");
 
-        if (check1 && check2 && check3 && check4 && check5) {
-            dog_disease1.setVisibility(View.GONE);
+        if (woof1 && woof2 && woof4 && woof6 && woof7) {
+
+            // Canine Distemper
+
             dog_disease2.setVisibility(View.GONE);
             dog_disease3.setVisibility(View.GONE);
             dog_disease4.setVisibility(View.GONE);
             dog_disease5.setVisibility(View.GONE);
             dog_disease6.setVisibility(View.GONE);
-            showToast("Conditions Met");
-        } else if (check6) {
-            dog_disease1.setVisibility(View.VISIBLE);
+            dog_disease7.setVisibility(View.GONE);
+
+        } else if (woof4 && woof5 && woof8 && woof9 && woof11) {
+
+            // Canine Parvo and Leptospirosis
+            dog_disease1.setVisibility(View.GONE);
+            dog_disease3.setVisibility(View.GONE);
+            dog_disease4.setVisibility(View.GONE);
+            dog_disease6.setVisibility(View.GONE);
+            dog_disease7.setVisibility(View.GONE);
+
+        } else if (woof9 && woof10 && woof12 && woof13) {
+
+            // Heatstroke
+            dog_disease1.setVisibility(View.GONE);
+            dog_disease2.setVisibility(View.GONE);
+            dog_disease3.setVisibility(View.GONE);
+            dog_disease5.setVisibility(View.GONE);
+            dog_disease6.setVisibility(View.GONE);
+            dog_disease7.setVisibility(View.GONE);
+
+        } else if (woof5 && woof14 && woof15 && woof17) {
+
+            // Intestinal Parasites
+            dog_disease1.setVisibility(View.GONE);
+            dog_disease2.setVisibility(View.GONE);
+            dog_disease3.setVisibility(View.GONE);
+            dog_disease5.setVisibility(View.GONE);
+            dog_disease6.setVisibility(View.GONE);
+            dog_disease7.setVisibility(View.GONE);
+
+        } else if (woof4 && woof5 && woof8 && woof16 && woof17) {
+
+            // Leptospirosis + Parvo and Distemper
+            dog_disease3.setVisibility(View.GONE);
+            dog_disease4.setVisibility(View.GONE);
+            dog_disease6.setVisibility(View.GONE);
+            dog_disease7.setVisibility(View.GONE);
+
+        } else if (woof3 && woof11 && woof18) {
+
+            // Heartworms
+            dog_disease1.setVisibility(View.GONE);
+            dog_disease2.setVisibility(View.GONE);
+            dog_disease3.setVisibility(View.GONE);
+            dog_disease4.setVisibility(View.GONE);
+            dog_disease5.setVisibility(View.GONE);
+            dog_disease7.setVisibility(View.GONE);
+
+        } else if (woof3 && woof8 && woof11 && woof19) {
+
+            // Fungal Infection
+            dog_disease1.setVisibility(View.GONE);
+            dog_disease3.setVisibility(View.GONE);
+            dog_disease4.setVisibility(View.GONE);
+            dog_disease5.setVisibility(View.GONE);
+            dog_disease6.setVisibility(View.GONE);
+
         }
 
     }
@@ -101,9 +158,38 @@ public class pp_dog_disease extends AppCompatActivity implements View.OnClickLis
                 woof = new Intent(this, dog_canine_distemper.class);
                 startActivity(woof);
                 break;
+            case R.id.dogDisease2:
+                woof = new Intent(this, dog_canine_parvo.class);
+                startActivity(woof);
+                break;
+            case R.id.dogDisease3:
+                woof = new Intent(this, dog_heatstroke.class);
+                startActivity(woof);
+                break;
+            case R.id.dogDisease4:
+                woof = new Intent(this, dog_intestinal_parasites.class);
+                startActivity(woof);
+                break;
+            case R.id.dogDisease5:
+                woof = new Intent(this, dog_leptospirosis.class);
+                startActivity(woof);
+                break;
+            case R.id.dogDisease6:
+                woof = new Intent(this, dog_heartworms.class);
+                startActivity(woof);
+                break;
+            case R.id.dogDisease7:
+                woof = new Intent(this, dog_fungal_infections.class);
+                startActivity(woof);
+                break;
             default:
                 showToast("This content is under development.");
                 break;
         }
     }
 }
+
+
+                    // TRY USING TAGS WITH UNIQUE ID
+                    // USE TACHIYOMI FREE SOURCE APP AS REFERENCE
+                    // May Luck be on your side~

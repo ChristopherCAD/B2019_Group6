@@ -47,6 +47,10 @@ public class pp_Rabbit extends AppCompatActivity {
         rs18 = findViewById(R.id.RS18);
         rs19 = findViewById(R.id.RS19);
         rs20 = findViewById(R.id.RS20);
+        rs21 = findViewById(R.id.RS21);
+        rs22 = findViewById(R.id.RS22);
+        rs23 = findViewById(R.id.RS23);
+        rs24 = findViewById(R.id.RS24);
 
 
         rabbit_Search = findViewById(R.id.rabbitButtonSearch);
@@ -63,22 +67,71 @@ public class pp_Rabbit extends AppCompatActivity {
             public void onClick(View v) {
                 Intent r = new Intent(pp_Rabbit.this, pp_rabbit_diseases.class);
 
-                if (rs1.isChecked() && rs3.isChecked() && rs4.isChecked() && rs2.isChecked()) {
+                if (rs1.isChecked() && rs2.isChecked() && rs3.isChecked() && rs4.isChecked() && rs5.isChecked()) {
+
+                    // Overgrown Teeth
+
                     r.putExtra("rs1", rs1.isChecked());
                     r.putExtra("rs2", rs2.isChecked());
                     r.putExtra("rs3", rs3.isChecked());
                     r.putExtra("rs4", rs4.isChecked());
-
-                    startActivity(r);
-                    //rabbit_symptom1.setBackgroundColor(Color.parseColor("#FF0000"));
-                    showToast("Searching for symptom-related diseases...");
-
-                } else if (rs2.isChecked() && rs5.isChecked()){
-                    r.putExtra("rs2", rs2.isChecked());
                     r.putExtra("rs5", rs5.isChecked());
                     startActivity(r);
-                } else {
-                    showToast("No condition here yet.");
+
+                } else if (rs7.isChecked() && rs8.isChecked() && rs9.isChecked() && rs10.isChecked() && rs11.isChecked()){
+
+                    // Snuffles
+
+                    r.putExtra("rs7", rs7.isChecked());
+                    r.putExtra("rs8", rs8.isChecked());
+                    r.putExtra("rs9", rs9.isChecked());
+                    r.putExtra("rs10", rs10.isChecked());
+                    r.putExtra("rs11", rs11.isChecked());
+                    startActivity(r);
+
+                } else if (rs12.isChecked() && rs13.isChecked() && rs14.isChecked() && rs15.isChecked() && rs16.isChecked()) {
+
+                    // Utermine Tumours
+
+                    r.putExtra("rs12", rs12.isChecked());
+                    r.putExtra("rs13", rs13.isChecked());
+                    r.putExtra("rs14", rs14.isChecked());
+                    r.putExtra("rs15", rs15.isChecked());
+                    r.putExtra("rs16", rs16.isChecked());
+                    startActivity(r);
+
+                } else if (rs17.isChecked() && rs18.isChecked() && rs19.isChecked() && rs20.isChecked() && rs21.isChecked()) {
+
+                    // Hemmorhagic Disease
+
+                    r.putExtra("rs17", rs17.isChecked());
+                    r.putExtra("rs18", rs18.isChecked());
+                    r.putExtra("rs19", rs19.isChecked());
+                    r.putExtra("rs20", rs20.isChecked());
+                    r.putExtra("rs21", rs21.isChecked());
+                    startActivity(r);
+
+                } else if (rs2.isChecked() && rs5.isChecked() && rs6.isChecked() && rs22.isChecked() && rs23.isChecked()) {
+
+                    // Hairballs
+
+                    r.putExtra("rs2", rs2.isChecked());
+                    r.putExtra("rs5", rs5.isChecked());
+                    r.putExtra("rs6", rs6.isChecked());
+                    r.putExtra("rs22", rs22.isChecked());
+                    r.putExtra("rs23", rs23.isChecked());
+                    startActivity(r);
+
+                } else if (rs2.isChecked() && rs5.isChecked() && rs17.isChecked() && rs24.isChecked()) {
+
+                    // Myxomatosis
+
+                    r.putExtra("rs2", rs2.isChecked());
+                    r.putExtra("rs5", rs5.isChecked());
+                    r.putExtra("rs17", rs17.isChecked());
+                    r.putExtra("rs24", rs24.isChecked());
+                    startActivity(r);
+
                 }
 
             }

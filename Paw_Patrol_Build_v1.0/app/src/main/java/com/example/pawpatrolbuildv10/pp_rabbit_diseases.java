@@ -58,18 +58,80 @@ public class pp_rabbit_diseases extends AppCompatActivity implements View.OnClic
         Boolean check3 = getIntent().getExtras().getBoolean("rs3");
         Boolean check4 = getIntent().getExtras().getBoolean("rs4");
         Boolean check5 = getIntent().getExtras().getBoolean("rs5");
+        Boolean check6 = getIntent().getExtras().getBoolean("rs6");
+        Boolean check7 = getIntent().getExtras().getBoolean("rs7");
+        Boolean check8 = getIntent().getExtras().getBoolean("rs8");
+        Boolean check9 = getIntent().getExtras().getBoolean("rs9");
+        Boolean check10 = getIntent().getExtras().getBoolean("rs10");
+        Boolean check11 = getIntent().getExtras().getBoolean("rs11");
+        Boolean check12 = getIntent().getExtras().getBoolean("rs12");
+        Boolean check13 = getIntent().getExtras().getBoolean("rs13");
+        Boolean check14 = getIntent().getExtras().getBoolean("rs14");
+        Boolean check15 = getIntent().getExtras().getBoolean("rs15");
+        Boolean check16 = getIntent().getExtras().getBoolean("rs16");
+        Boolean check17 = getIntent().getExtras().getBoolean("rs17");
+        Boolean check18 = getIntent().getExtras().getBoolean("rs18");
+        Boolean check19 = getIntent().getExtras().getBoolean("rs19");
+        Boolean check20 = getIntent().getExtras().getBoolean("rs20");
+        Boolean check21 = getIntent().getExtras().getBoolean("rs21");
+        Boolean check22 = getIntent().getExtras().getBoolean("rs22");
+        Boolean check23 = getIntent().getExtras().getBoolean("rs23");
+        Boolean check24 = getIntent().getExtras().getBoolean("rs24");
 
-        if (check1 && check3 && check4 && check2) {
+        if (check1 && check2 && check3 && check4 && check5) {
+
+            // Overgrown Teeth, Hairballs, and Myxomatosis
+
             rabbit_disease2.setVisibility(View.GONE);
-            rabbit_disease5.setVisibility(View.GONE);
-            rabbit_disease6.setVisibility(View.GONE);
-            showToast("Conditions Met");
-        }
-        if (check2 && check5) {
+            rabbit_disease3.setVisibility(View.GONE);
+            rabbit_disease4.setVisibility(View.GONE);
+
+        } else if (check7 && check8 && check9 && check10 && check11) {
+
+            // Snuffles
+
             rabbit_disease1.setVisibility(View.GONE);
             rabbit_disease3.setVisibility(View.GONE);
             rabbit_disease4.setVisibility(View.GONE);
-            showToast("Conditions are met.");
+            rabbit_disease5.setVisibility(View.GONE);
+            rabbit_disease6.setVisibility(View.GONE);
+
+        } else if (check12 && check13 && check14 && check15 && check16) {
+
+            // Utermine Tumours
+
+            rabbit_disease1.setVisibility(View.GONE);
+            rabbit_disease2.setVisibility(View.GONE);
+            rabbit_disease4.setVisibility(View.GONE);
+            rabbit_disease5.setVisibility(View.GONE);
+            rabbit_disease6.setVisibility(View.GONE);
+
+        } else if (check17 && check18 && check19 && check20 && check21) {
+
+            // Hemmorhagic Disease
+
+            rabbit_disease1.setVisibility(View.GONE);
+            rabbit_disease2.setVisibility(View.GONE);
+            rabbit_disease3.setVisibility(View.GONE);
+            rabbit_disease5.setVisibility(View.GONE);
+            rabbit_disease6.setVisibility(View.GONE);
+
+        } else if (check2 && check5 && check6 && check22 && check23) {
+
+            // Hairballs, Overgrown, Myxo
+
+            rabbit_disease2.setVisibility(View.GONE);
+            rabbit_disease3.setVisibility(View.GONE);
+            rabbit_disease4.setVisibility(View.GONE);
+
+        } else if(check2 && check5 && check17 && check24) {
+
+            // Myxomatosis
+
+            rabbit_disease2.setVisibility(View.GONE);
+            rabbit_disease3.setVisibility(View.GONE);
+            rabbit_disease4.setVisibility(View.GONE);
+
         }
 
 

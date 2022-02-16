@@ -30,9 +30,6 @@ public class pp_hamster_disease extends AppCompatActivity implements View.OnClic
         hamsterDisease5 = findViewById(R.id.hamsterDisease5);
         hamsterDisease6 = findViewById(R.id.hamsterDisease6);
         hamsterDisease7 = findViewById(R.id.hamsterDisease7);
-        hamsterDisease8 = findViewById(R.id.hamsterDisease8);
-        hamsterDisease9 = findViewById(R.id.hamsterDisease9);
-        hamsterDisease10 = findViewById(R.id.hamsterDisease10);
 
         // Click Listener Block
 
@@ -56,9 +53,6 @@ public class pp_hamster_disease extends AppCompatActivity implements View.OnClic
         hamster_disease5 = findViewById(R.id.hamsterdisease5);
         hamster_disease6 = findViewById(R.id.hamsterdisease6);
         hamster_disease7 = findViewById(R.id.hamsterdisease7);
-        hamster_disease8 = findViewById(R.id.hamsterdisease8);
-        hamster_disease9 = findViewById(R.id.hamsterdisease9);
-        hamster_disease10 = findViewById(R.id.hamsterdisease10);
 
 
         // Intent Block
@@ -73,17 +67,76 @@ public class pp_hamster_disease extends AppCompatActivity implements View.OnClic
         Boolean check8 = getIntent().getExtras().getBoolean("hs8");
         Boolean check9 = getIntent().getExtras().getBoolean("hs9");
         Boolean check10 = getIntent().getExtras().getBoolean("hs10");
+        Boolean check11 = getIntent().getExtras().getBoolean("hs11");
+        Boolean check12 = getIntent().getExtras().getBoolean("hs12");
+        Boolean check13 = getIntent().getExtras().getBoolean("hs13");
+        Boolean check14 = getIntent().getExtras().getBoolean("hs14");
+        Boolean check15 = getIntent().getExtras().getBoolean("hs15");
 
         if (check1 && check2 && check3 && check4 && check5) {
+
+            // Wet Tails + Tapeworms
+
+            hamster_disease2.setVisibility(View.GONE);
+            hamster_disease3.setVisibility(View.GONE);
+            hamster_disease4.setVisibility(View.GONE);
+            hamster_disease6.setVisibility(View.GONE);
+
+
+        } else if (check7 && check8 && check9) {
+
+            // Atrial Thrombosis
+
+            hamster_disease1.setVisibility(View.GONE);
+            hamster_disease3.setVisibility(View.GONE);
+            hamster_disease4.setVisibility(View.GONE);
+            hamster_disease5.setVisibility(View.GONE);
+            hamster_disease6.setVisibility(View.GONE);
+
+
+        } else if (check2 && check6 && check10 && check11 && check12) {
+
+            // Tyzzer's Disease
+
+            hamster_disease1.setVisibility(View.GONE);
+            hamster_disease2.setVisibility(View.GONE);
+            hamster_disease4.setVisibility(View.GONE);
+            hamster_disease5.setVisibility(View.GONE);
+            hamster_disease6.setVisibility(View.GONE);
+
+
+        } else if (check1 && check3 && check12 && check13) {
+
+            // Salmonella
+
+            hamster_disease1.setVisibility(View.GONE);
+            hamster_disease2.setVisibility(View.GONE);
+            hamster_disease3.setVisibility(View.GONE);
+            hamster_disease5.setVisibility(View.GONE);
+            hamster_disease6.setVisibility(View.GONE);
+
+
+        } else if (check1 && check2 && check5 && check6 && check13) {
+
+            // Tapeworms + Wet Tails
+
+            hamster_disease2.setVisibility(View.GONE);
+            hamster_disease3.setVisibility(View.GONE);
+            hamster_disease4.setVisibility(View.GONE);
+            hamster_disease6.setVisibility(View.GONE);
+
+
+        } else if (check7 && check14 && check15) {
+
+            // Pneumonia
+
             hamster_disease1.setVisibility(View.GONE);
             hamster_disease2.setVisibility(View.GONE);
             hamster_disease3.setVisibility(View.GONE);
             hamster_disease4.setVisibility(View.GONE);
             hamster_disease5.setVisibility(View.GONE);
-            hamster_disease6.setVisibility(View.GONE);
-            showToast("Conditions Met");
-        } else if (check6) {
-            hamster_disease1.setVisibility(View.GONE);
+
+
         }
 
     }
@@ -95,7 +148,27 @@ public class pp_hamster_disease extends AppCompatActivity implements View.OnClic
 
         switch (v.getId()) {
             case R.id.hamsterDisease1:
-                activate = new Intent(this, disease1_rabbit.class);
+                activate = new Intent(this, hamster_wetTail.class);
+                startActivity(activate);
+                break;
+            case R.id.hamsterDisease2:
+                activate = new Intent(this, hamster_thrombosis.class);
+                startActivity(activate);
+                break;
+            case R.id.hamsterDisease3:
+                activate = new Intent(this, hamster_tyzzer_disease.class);
+                startActivity(activate);
+                break;
+            case R.id.hamsterDisease4:
+                activate = new Intent(this, hamster_salmonella.class);
+                startActivity(activate);
+                break;
+            case R.id.hamsterDisease5:
+                activate = new Intent(this, hamster_tape_worms.class);
+                startActivity(activate);
+                break;
+            case R.id.hamsterDisease6:
+                activate = new Intent(this, hamster_pneumonia.class);
                 startActivity(activate);
                 break;
             default:

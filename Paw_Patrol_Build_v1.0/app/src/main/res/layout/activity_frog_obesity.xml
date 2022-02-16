@@ -24,7 +24,9 @@
             android:fitsSystemWindows="true"
             app:contentScrim="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
-            android:background="@drawable/frog_obesity">
+            android:background="@drawable/frog_fat">
+
+            <!-- You better change this ImageView my guy... -->
 
             <ImageView
                 android:id="@+id/imgOvergrown"
@@ -33,7 +35,7 @@
                 android:layout_gravity="center|top|right"
                 android:layout_marginBottom="10dp"
                 app:layout_collapseMode="parallax"
-                android:src="@drawable/frog_obesity"
+                android:src="@drawable/frog_fat"
                 >
             </ImageView>
 
